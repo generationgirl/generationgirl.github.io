@@ -1,5 +1,5 @@
 #header {
-  background: url('../img/mood1.jpeg');
+  background: #F9CED7;
   height: 600px;
   margin: 0;
   padding: 200px 0 260px 0;
@@ -7,7 +7,7 @@
 
 #about {
   background-color: #FFF;
-  height: 500px;
+  height: 700px;
   margin: 0;
   padding: 60px 0 260px 0;
   overflow: hidden;
@@ -22,8 +22,8 @@
 }
 
 #registration {
-  background-color: #FFF;
-  height: 700px;
+  background: #FFF;
+  height: 500px;
   margin: 0 auto;
   padding: 60px 0 260px 0;
   overflow: hidden;
@@ -151,4 +151,9 @@ position: relative; padding-bottom: 50%; height: 30%; overflow: hidden;
 
 position: absolute; top:0; left: 0; width: 100%; height: 100%;
 
+}
+
+.row {
+  padding-top: 10px;
+  padding-bottom:10px;
 }
