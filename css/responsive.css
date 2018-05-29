@@ -1,31 +1,44 @@
 @media (max-width:400px){
 
   #header {
-    height:700px;
-  }
-
-  #about {
-    height:1100px;
-  }
-
-  #gallery {
     height:1000px;
   }
 
-  #calendar {
-    height:400px;
+  #about {
+    height:1300px;
+  }
+
+  #sponsors {
+    height:1100px;
+  }
+
+  #registration {
+    height:700px;
+  }
+
+  #contact {
+    height: 700px;
   }
 }
 
 @media (min-width:401px)
 and (max-width:500px) {
-
-  #about {
+  #header {
     height:1000px;
   }
 
-  #gallery {
-    height: 1000px;
+  #about {
+    height:1400px;
+  }
+
+  #sponsors {
+    height: 1100px;
+  }
+  #registration {
+    height:700px;
+  }
+  #contact {
+    height: 700px;
   }
 }
 
@@ -35,8 +48,16 @@ and (max-width:900px) {
     height:1000px;
   }
 
-  #gallery {
-    height: 1400px;
+  #sponsors {
+    height: 1200px;
+  }
+
+  #registration {
+    height:500px;
+  }
+
+  #contact {
+    height: 700px;
   }
 
 }
@@ -47,8 +68,8 @@ and (max-width:991px){
     height:900px;
   }
 
-  #gallery {
-    height: 900px;
+  #sponsors {
+    height: 1500px;
   }
 }
 
