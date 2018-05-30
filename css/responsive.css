@@ -1,11 +1,11 @@
 @media (max-width:400px){
 
   #header {
-    height:1000px;
+    height:900px;
   }
 
   #about {
-    height:1300px;
+    height:1500px;
   }
 
   #sponsors {
@@ -28,11 +28,11 @@ and (max-width:500px) {
   }
 
   #about {
-    height:1400px;
+    height:1700px;
   }
 
   #sponsors {
-    height: 1100px;
+    height: 1500px;
   }
   #registration {
     height:700px;
@@ -65,11 +65,14 @@ and (max-width:900px) {
 @media (min-width:901px)
 and (max-width:991px){
   #about {
-    height:900px;
+    height:1000px;
   }
 
   #sponsors {
-    height: 1500px;
+    height: 1000px;
+  }
+  #registration {
+    height:500px;
   }
 }
 
