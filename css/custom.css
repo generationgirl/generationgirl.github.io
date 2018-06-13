@@ -1,25 +1,35 @@
 #header {
-  background-color: #a7e6d9;
-  background-position: left;
-  height: 600px;
+  background: url('../img/Untitled-4-01.jpeg');
   margin: 0;
-  padding: 200px 0 260px 0;
+  height: 400px;
+  background-size: 400px 400px;
 }
 
 #about {
-  background-color: #FFF;
-  height: 700px;
+  background: url('../img/grid.JPG');
+  height: 300px;
   margin: 0;
   padding: 60px 0 260px 0;
   overflow: hidden;
+  background-size: cover;
 }
 
-#sponsors {
-  background-color: #FFF;
-  height: 400px;
+#summerclub {
+  background:url('../img/grid.JPG');
+  height: 500px;
   margin: 0;
-  padding: 70px 0 260px 0;
+  padding: 60px 0 260px 0;
   overflow: hidden;
+  background-size: cover;
+}
+
+#testimonials {
+  background:url('../img/grid.JPG');
+  height: 300px;
+  margin:0;
+  padding:60px 0 260px 0;
+  overflow: hidden;
+  background-size: cover;
 }
 
 #registration {
@@ -46,9 +56,9 @@
 }*/
 
 h1 {
-  font-family:'Lobster';
+  font-family:'Source Sans Pro', sans-serif;
   color:#FFF;
-  font-size: 80;
+  font-size: 50;
   top: 10px;
   text-shadow: 1px 1px 1px #000;
 }
@@ -63,14 +73,25 @@ h5 {
 }
 
 h2 {
-  font-family:'Lobster';
-  color:#000;
-  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#004987;
   font-size: 50;
 }
 
-h3, p {
-  font-family:'Source Sans Pro',sans-serif;
+p {
+  font-family: 'Raleway', sans-serif;
+  color:#fff;
+  font-size: 14px;
+  height: 10px;
+  align: justify;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  color:#004987;
+  font-size: 14px;
+  height: 10px;
+  align: justify;
 }
 
 li {
@@ -79,6 +100,12 @@ li {
 .responsiveCal {
   text-align: center;
 }
+
+a {
+  font-family: 'Raleway', sans-serif;
+  color:#fff;
+}
+
 
 .portfolio-box {
   position: relative;
