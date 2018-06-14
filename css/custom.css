@@ -1,8 +1,9 @@
 #header {
   background: url('../img/Untitled-4-01.jpeg');
   margin: 0;
-  height: 400px;
-  background-size: 400px 400px;
+  height: 500px;
+  background-size: contain;
+  background-repeat:repeat-x;
 }
 
 #about {
@@ -15,7 +16,7 @@
 }
 
 #summerclub {
-  background:url('../img/grid.JPG');
+  background-color: #ffd700;
   height: 500px;
   margin: 0;
   padding: 60px 0 260px 0;
@@ -25,7 +26,7 @@
 
 #testimonials {
   background:url('../img/grid.JPG');
-  height: 300px;
+  height: 700px;
   margin:0;
   padding:60px 0 260px 0;
   overflow: hidden;
@@ -33,11 +34,12 @@
 }
 
 #registration {
-  background: #FFF;
+  background: #004987;
   height: 400px;
-  margin: 0 auto;
+  margin: 0;
   padding: 60px 0 260px 0;
   overflow: hidden;
+  background-size: cover;
 }
 
 #contact {
@@ -61,6 +63,8 @@ h1 {
   font-size: 50;
   top: 10px;
   text-shadow: 1px 1px 1px #000;
+  font-weight: bold;
+
 }
 
 h5 {
@@ -76,6 +80,7 @@ h2 {
   font-family: 'Source Sans Pro', sans-serif;
   color:#004987;
   font-size: 50;
+  font-weight: bold;
 }
 
 p {
@@ -89,9 +94,13 @@ p {
 h3 {
   font-family: 'Raleway', sans-serif;
   color:#004987;
-  font-size: 14px;
+  font-size: 20px;
   height: 10px;
   align: justify;
+}
+
+h4 {
+  font-size: 10px;
 }
 
 li {
@@ -108,8 +117,8 @@ a {
 
 
 .portfolio-box {
-  position: relative;
-  display: block;
+  position:relative;
+  display:block;
   max-width: 650px;
   margin: 0 auto;
 }
@@ -117,7 +126,7 @@ a {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(64,224,208);
+  background-color: #ff4338;
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -184,4 +193,10 @@ position: absolute; top:0; left: 0; width: 100%; height: 100%;
 .row {
   padding-top: 10px;
   padding-bottom:10px;
+}
+
+.image {
+  border-radius: 50%;
+  height:400px;
+  width: 400px;
 }
