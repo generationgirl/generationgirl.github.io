@@ -1,9 +1,8 @@
 #header {
-  background: url('../img/Untitled-4-01.jpeg');
+  background: url('../img/crinkledpaper-01.jpg');
   margin: 0;
   height: 500px;
-  background-size: contain;
-  background-repeat:repeat-x;
+  background-size: cover;
 }
 
 #about {
@@ -36,7 +35,7 @@
 #registration {
   background: #004987;
   height: 400px;
-  margin: 0;
+  margin:0;
   padding: 60px 0 260px 0;
   overflow: hidden;
   background-size: cover;
@@ -87,7 +86,6 @@ p {
   font-family: 'Raleway', sans-serif;
   color:#fff;
   font-size: 14px;
-  height: 10px;
   align: justify;
 }
 
@@ -95,7 +93,6 @@ h3 {
   font-family: 'Raleway', sans-serif;
   color:#004987;
   font-size: 20px;
-  height: 10px;
   align: justify;
 }
 
@@ -119,8 +116,8 @@ a {
 .portfolio-box {
   position:relative;
   display:block;
-  max-width: 650px;
-  margin: 0 auto;
+  max-width: 500px;
+  margin: 0;
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
@@ -199,4 +196,51 @@ position: absolute; top:0; left: 0; width: 100%; height: 100%;
   border-radius: 50%;
   height:400px;
   width: 400px;
+}
+
+.header-image{
+  height: 175px;
+  width:300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 200px;
+  margin-top: 200px;
+}
+
+.sticker-left{
+  height:40px;
+  width:40px;
+  margin-top: -100px;
+  margin-left: 175px;
+}
+
+.sticker-right{
+  height:40px;
+  width:60px;
+  margin-top: -200px;
+  margin-left: 500px;
+}
+
+.sticker-top{
+  height:40px;
+  width:40px;
+  margin-top:-500px;
+  margin-left: 200px;
+}
+
+.date{
+  height:40px;
+  width:200px;
+  margin-left: 500px;
+  margin-right: 500px;
+  top: 80px;
+  margin-top: 80px;
+  display: block;
+}
+
+.wrapper{
+	display:block;
+	width:90%;
+	margin:auto;
 }

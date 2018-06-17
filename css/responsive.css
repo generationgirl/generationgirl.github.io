@@ -5,11 +5,15 @@
   }
 
   #about {
-    height:1500px;
+    height:800px;
   }
 
-  #sponsors {
-    height:1100px;
+  #summerclub {
+    height:800px;
+  }
+
+  #testimonials {
+    height:1500px
   }
 
   #registration {
@@ -28,12 +32,17 @@ and (max-width:500px) {
   }
 
   #about {
-    height:1700px;
+    height:1000px;
   }
 
-  #sponsors {
-    height: 1500px;
+  #summerclub {
+    height:1000px;
   }
+
+  #testimonials {
+    height:1500px
+  }
+
   #registration {
     height:700px;
   }
@@ -45,11 +54,15 @@ and (max-width:500px) {
 @media (min-width:501px)
 and (max-width:900px) {
   #about {
-    height:1000px;
+    height:700px;
   }
 
-  #sponsors {
-    height: 1200px;
+  #summerclub {
+    height:800px;
+  }
+
+  #testimonials {
+    height:1300px
   }
 
   #registration {
@@ -65,28 +78,51 @@ and (max-width:900px) {
 @media (min-width:901px)
 and (max-width:991px){
   #about {
-    height:1000px;
+    height:500px;
   }
 
-  #sponsors {
-    height: 1000px;
+  #summerclub {
+    height:800px;
   }
+
+  #testimonials {
+    height:1300px
+  }
+
   #registration {
     height:500px;
+  }
+
+  #contact {
+    height: 700px;
   }
 }
 
 @media (min-width:992px)
 and (max-width:1200px) {
-  #gallery {
-    height:1000px;
+  #about {
+    height:500px;
+  }
+
+  #summerclub {
+    height:800px;
+  }
+
+  #testimonials {
+    height:1300px
+  }
+
+  #registration {
+    height:500px;
+  }
+
+  #contact {
+    height: 500px;
   }
 }
 
 @media (min-width:1201px) {
-  #gallery {
-    height:500px;
-  }
+
 }
 
 @media (device-height: 568px) and (device-width: 320px) and (webkit-min-device-pixel-ratio: 2) {
