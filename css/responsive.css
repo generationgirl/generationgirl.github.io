@@ -1,7 +1,7 @@
 @media (max-width:400px){
 
   #header {
-    height:900px;
+    height:700px;
   }
 
   #about {
@@ -28,7 +28,7 @@
 @media (min-width:401px)
 and (max-width:500px) {
   #header {
-    height:1000px;
+    height:500px;
   }
 
   #about {
@@ -122,7 +122,9 @@ and (max-width:1200px) {
 }
 
 @media (min-width:1201px) {
-
+  #testimonials {
+    height:800px
+  }
 }
 
 @media (device-height: 568px) and (device-width: 320px) and (webkit-min-device-pixel-ratio: 2) {
