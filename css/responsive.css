@@ -5,7 +5,7 @@
   }
 
   #about {
-    height:800px;
+    height:500px;
   }
 
   #summerclub {
@@ -13,7 +13,7 @@
   }
 
   #testimonials {
-    height:1500px
+    height:2200px
   }
 
   #registration {
@@ -40,7 +40,7 @@ and (max-width:500px) {
   }
 
   #testimonials {
-    height:1500px
+    height:2000px
   }
 
   #registration {
@@ -62,7 +62,7 @@ and (max-width:900px) {
   }
 
   #testimonials {
-    height:1300px
+    height:2000px
   }
 
   #registration {
@@ -86,7 +86,7 @@ and (max-width:991px){
   }
 
   #testimonials {
-    height:1300px
+    height:2000px
   }
 
   #registration {
@@ -109,7 +109,7 @@ and (max-width:1200px) {
   }
 
   #testimonials {
-    height:1300px
+    height:2000px
   }
 
   #registration {
@@ -123,7 +123,7 @@ and (max-width:1200px) {
 
 @media (min-width:1201px) {
   #testimonials {
-    height:800px
+    height:900px
   }
 }
 
