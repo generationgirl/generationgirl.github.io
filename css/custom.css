@@ -1,12 +1,13 @@
 #header {
-  background: url('../img/gloves.png');
+  background:url('../img/geng1.jpg');
   margin: 0;
-  height: 500px;
+  height: 800px;
+  padding: 200px 0 260px 0;
   background-size: cover;
 }
 
 #about {
-  background: url('../img/grid.JPG');
+  background-color: #fff;
   height: 300px;
   margin: 0;
   padding: 60px 0 260px 0;
@@ -14,17 +15,17 @@
   background-size: cover;
 }
 
-#winterclub {
-  background-color: #ffd700;
-  height: 500px;
+#clubs {
+  background-color: #004b85;
+  height: 800px;
   margin: 0;
   padding: 60px 0 260px 0;
   overflow: hidden;
   background-size: cover;
 }
 
-#testimonials {
-  background:url('../img/grid.JPG');
+#meet {
+  background-color: #FFF;
   height: 700px;
   margin:0;
   padding:60px 0 260px 0;
@@ -32,8 +33,8 @@
   background-size: cover;
 }
 
-#registration {
-  background: #004987;
+#instagram {
+  background: #f2dede;
   height: 400px;
   margin:0;
   padding: 60px 0 260px 0;
@@ -44,6 +45,22 @@
 #contact {
   background-color: #FFF;
   height: 500px;
+  margin: 0;
+  padding: 60px 0 260px 0;
+  overflow: hidden;
+}
+
+#sponsors {
+  background-color: #a5e5d9;
+  height: 400px;
+  margin: 0;
+  padding: 60px 0 260px 0;
+  overflow: hidden;
+}
+
+#footer {
+  background-color: #4d4d4d;
+  height: 300px;
   margin: 0;
   padding: 60px 0 260px 0;
   overflow: hidden;
@@ -198,21 +215,32 @@ position: absolute; top:0; left: 0; width: 100%; height: 100%;
   width: 400px;
 }
 
+.image-meet {
+  border-radius: 50%;
+  height:155px;
+  width: 145px;
+}
+
+.image-sponsor {
+  height:90px;
+  width:400px;
+}
+
 .header-image{
-  height: 350px;
-  width:380px;
+  height: 260px;
+  width:280px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  top: 150px;
-  margin-top: 70px;
+  top: 300px;
+  margin-top: 200px;
 }
 
 .sticker-left{
   height:40px;
   width:40px;
   margin-top: -100px;
-  margin-left: 300px;
+  margin-left: 250px;
 }
 
 .sticker-right{
@@ -250,4 +278,14 @@ position: absolute; top:0; left: 0; width: 100%; height: 100%;
 	display:block;
 	width:90%;
 	margin:auto;
+}
+
+.contact-email{
+  height:40px;
+  width:60px;
+}
+
+.contact-square{
+  height:40px;
+  width:40px;
 }

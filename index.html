@@ -15,7 +15,7 @@
   <link href="css/custom.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
   <!--custom fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   <!--magnific-popup-->
   <link href="css/magnific_popup.css" rel="stylesheet">
   <!--font awesome-->
@@ -48,9 +48,9 @@
       <div id="navbar" class="navbar-collapse collapse navbar-right navbar-main-collapse">
         <ul class="nav navbar-nav">
           <li><a href="#about" class="page-scroll">About</a></li>
-          <li><a href="#winterclub" class="page-scroll">Winter Club</a></li>
-          <li><a href="#registration" class="page-scroll">Registration</a></li>
-          <li><a href="#contact" class="page-scroll">Contact</a></li>
+          <li><a href="#clubs" class="page-scroll">Our Clubs</a></li>
+          <li><a href="#instagram" class="page-scroll">Social Feed</a></li>
+          <li><a href="#contact" class="page-scroll">Contact Us</a></li>
         </ul>
       </div>
     </div>
@@ -58,149 +58,204 @@
 
   <!--Intro header-->
   <header id="header">
-    <div class="container">
-      <img src=img/winterclub.png class="header-image">
-      <img src=img/laptop_sticker.png class="sticker-left">
-    </div>
-    <div class="container">
-      <div class="col-md-12 text-center">
-      <span class="label label-danger section heading">December 17-21</span>
-    </div>
-    </div>
   </header>
 
   <!--about section-->
   <section id="about">
       <div class="row">
         <div class="container">
-          <div class="col-lg-4 text center">
-            <h3 class="section heading">About</h3>
-            <h2>Generation Girl</h2>
+          <div class="col-lg-12 text center">
+            <h2 class="section heading" align="center">About Us</h2>
+              <h3 align="center">Generation Girl is founded by women who lead the Indonesian tech world today. In this male-dominated field, reaching the top was a difficult journey for us . Now, we wish to make this journey easier for the next generation of women leaders.</h3>
           </div>
-          <div class="container">
-              <div class="col-lg-8 text center">
-                <br>
-                <br>
-                <br>
-                <h3 align="justify">Generation Girl is founded by women who lead the Indonesian tech world today. In this male-dominated field, reaching the top was a difficult journey for us . Now, we wish to make this journey easier for the next generation of women leaders.</h3>
-              </div>
-          </div>
-      </div>
+       </div>
+     </div>
   </section>
 
-  <!--summerclub section-->
-  <section id="winterclub">
+  <!--clubs section-->
+  <section id="clubs">
       <div class="row">
+        <h1 class="section heading" align="center">Our Clubs</h1>
         <div class="container">
-          <div class="col-lg-8 text center">
-            <div style="width:80%;height:0;padding-bottom:43%;position:relative;">
-              <iframe src="https://giphy.com/embed/l2DAZwWNSDLLaRAFsG" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-            </div><p><a href="https://giphy.com/gifs/l2DAZwWNSDLLaRAFsG">via GIPHY</a></p>
+          <div class="col-lg-6" align="center">
+            <img src=img/winterclub.png class="image">
+            <div class="row" align="center">
+              <h1>Winter Club</h1>
+              <p align="center">December 17-21</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#winterModal">
+                Find Out More
+              </button>
+            </div>
           </div>
-          <div class="container">
-              <div class="col-lg-4 text center">
-                <h2 align="justify">Winter Club</h2>
-                <h3>We hold free computer programming workshops for girls aged 12-14. We introduce them to the exciting field of mobile and web programming. We help them express their creativity through software. And we do all of this in the friendliest, funnest manner possible!</h3>
+          <div class="col-lg-6" align="center">
+            <img src=img/summerclub.png class="image">
+            <div class="row" align="center">
+              <h1>Summer Club</h1>
+              <p align="center">Coming Soon in 2019</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#summerModal">
+                Find Out More
+              </button>
+            </div>
+          </div>
+        </div>
+            <!-- Modal Winter -->
+            <div class="modal fade" id="winterModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel">Winter Club</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
               </div>
+            </div>
+            <!-- Modal Summer -->
+            <div class="modal fade" id="summerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel">Summer Club</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-      </div>
+        </div>
   </section>
 
-  <!--Testimonials-->
-  <section id="testimonials">
+  <!--Meet the Team-->
+  <section id="meet">
     <div class="row">
       <div class="container">
         <div class="col-md-12 text-center">
-          <h2 class="section heading">Testimonials</h2>
-          <div class="col-lg-4 text-center">
-            <h3 align="center">Nadine Siregar</h3>
-            <a href="img/nadine2.jpeg">
-              <img src="img/nadine.jpeg" class= "image" alt="" align="center">
-              <div class="portfolio-box-caption">
-                  <div class="portfolio-box-caption-content">
-                    <div class="project-category text-faded">
-                      On my first day of work in an Indonesian tech company, no one believed I was actually a developer. My new (almost all male) colleagues thought I was someone's girlfriend or little sister coming to visit their office, but no one assumed that I was their new teammate. Throughout my career, people have thought that my successes come from "batting my eyelashes" or just the simple fact that I'm a girl. My ultimate goal is to have so many women in STEM fields that we start saying 'tech is such a girls club' ;)
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div class="col-md-4 text-center">
-              <h3 align="center">Vania Alfitri</h3>
-              <a href="img/mila2.jpeg">
-                <img src="img/mila.jpeg" class="image" alt="" align="center">
-                <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                      <div class="project-category text-faded">
-                        Being a software engineer is probably one of the most friendliest careers for a woman due to its work from home policy across any companies out there in general. I was stunned by the ratio of women in tech here in Indonesia compared to men, and I want to make it a goal to empower girls by teaching them to code from early on. I did not have this sort of a summer program when I was young but if I did, I would totally sign up for it!
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-              <h3 align="center">Crystal Widjaja</h3>
-              <a href="img/crystal2.jpg">
-                <img src="img/crystal.jpg" class= "image" alt="" align="center">
-                <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                      <div class="project-category text-faded">
-                        I never actually thought of myself as an engineer. In high school, I made my first attempt at engineering by signing up for a Computer Science class! On the first day, it was immediately clear that I was at an incredible disadvantage: my very male-dominated class was already relatively experienced with programming and technology, and there was no way I would be able to catch up independently. I effectively dropped out of that class. Today, I am dedicated to giving young women a chance to be successful, face their insecurities, and challenge the status quo.
-                      </div>
-                    </div>
-                </div>
-              </div>
-          </div>
-          </div>
-      </div>
-  </section>
-  <section id="registration">
-    <div class="container">
-      <div class="row">
-          <div class="col-md-4">
-            <h1>Registration</h1>
-          </div>
-          <div class="col-md-4">
-            <h3 align="justify"><a href="http://bit.ly/wintermentor"> Mentor</a></h3>
-            <p align="justify">Still not sure what you’re doing this winter? If you’re an aspiring tech trendsetter, why not apply to be a mentor? You have the power to pass down your wisdom to the next generation and plan fun activities and outings, too. Come teach future female leaders! You just have to be a female high school or college student with computer science experience to apply. Winter mentor registration closes September 15. Good luck! <a class="btn btn-primary" href="http://bit.ly/wintermentor" role="button">Register</a></p>
-
-          </div>
-          <div class="col-md-4">
-            <h3 align="justify"><a href="https://generationgirl.typeform.com/to/lWzL4W"> Rookie</a></h3>
-            <p align="justify">Want a behind-the-scenes look into the magical world of computer programming? Hang out with  us this winter to learn how to code and meet super cool, amazing people (like us!). Rookie registration closes November 1, register quick! <a class="btn btn-primary" href="https://generationgirl.typeform.com/to/lWzL4W" role="button">Register</a></p>
-          </div>
+          <h2 class="section heading">Meet Our Team</h2>
         </div>
       </div>
+    </div>
+    <div class="row">
+      <div class="container">
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+          <img src=img/nadine1.jpeg class="image-meet">
+          <h4>Nadine Siregar</h4>
+        </div>
+        <div class="col-md-2">
+          <img src=img/crystal.jpeg class="image-meet">
+          <h4>Crystal Widjaja</h4>
+        </div>
+        <div class="col-md-2">
+          <img src=img/fadri.jpeg class="image-meet">
+          <h4>Fadri</h4>
+        </div>
+        <div class="col-md-2">
+          <img src=img/janice.jpeg class="image-meet">
+          <h4>Janice</h4>
+        </div>
+        <div class="col-md-2">
+          <img src=img/winterclub.png class="image-meet">
+          <h4>Mila</h4>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container">
+        <div class="col-md-2"></div>
+        <div class="col-md-2">
+          <img src=img/josephine.jpeg class="image-meet">
+          <h4>Josephine Bahari</h4>
+        </div>
+        <div class="col-md-2">
+          <img src=img/tsabita.jpeg class="image-meet">
+          <h4>Tsabita</h4>
+        </div>
+        <div class="col-md-2">
+          <img src=img/grace.jpeg class="image-meet">
+          <h4>Grace</h4>
+        </div>
+        <div class="col-md-2">
+          <img src=img/winterclub.png class="image-meet">
+          <h4>Alita</h4>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+  </section>
+  <section id="instagram">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-12" align="center">
+            <h1>Instagram</h1>
+          </div>
+      </div>
+      <div class="row">
+      </div>
+    </div>
   </section>
 
   <section id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section heading">Keep in Touch</h2>
+          <h2 class="section heading">Contact Us</h2>
           <hr>
-          <div class="col-lg-12 text-center">
-            <h3>Sign up with your email address to receive news, sneak peeks and event invites!</h3>
-          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
           <div class="col-md-4 text-center">
             <div class="contact-box">
-            <a href="mailto:generationgirl.id@gmail.com"><h3>E-mail us</h3></a>
-            <a href="mailto:generationgirl.id@gmail.com"><i class="fa fa-envelope-o fa-4x" aria-hidden="true"></i></a>
+            <a href="mailto:generationgirl.id@gmail.com"><img src="img/email.png" class="contact-email"></a>
             </div>
           </div>
           <div class="col-md-4 text-center">
             <div class="contact-box">
-            <a href="https://embed.kitabisa.com/generationgirl"><h3>Donate</h3></a>
-            <a href="https://embed.kitabisa.com/generationgirl"><i class="fa fa-gift fa-4x" aria-hidden="true"></i></a>
+            <a href="https://embed.kitabisa.com/generationgirl"><img src="img/donate.png" class="contact-square"></a>
             </div>
           </div>
           <div class="col-md-4 text-center">
             <div class="contact-box">
-            <a href="https://www.instagram.com/generationgirl.id/"><h3>Follow us</h3>
-            <a href="https://www.instagram.com/generationgirl.id/"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/generationgirl.id/"><img src ="img/instagram.png" class="contact-square"></i></a>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      </div>
+  </section>
+
+  <section id="sponsors">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section heading">Our Sponsor</h2>
+          <hr>
+          <img src=img/sequoia.jpeg class="image-sponsor">
+        </div>
+      </div>
+  </section>
+
+  <section id="footer">
   </section>
 
   <!-- Footer -->
