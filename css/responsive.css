@@ -13,7 +13,7 @@
   }
 
   #meet {
-    height:2400px;
+    height:2000px;
   }
 
   #registration {
@@ -21,7 +21,12 @@
   }
 
   #contact {
-    height: 700px;
+    height:700px;
+  }
+
+  .image-sponsor {
+    height:50px;
+    width:300px;
   }
 }
 
@@ -40,7 +45,7 @@ and (max-width:500px) {
   }
 
   #meet {
-    height:3000px;
+    height:2000px;
   }
 
   #registration {
@@ -48,6 +53,11 @@ and (max-width:500px) {
   }
   #contact {
     height: 700px;
+  }
+
+  .image-sponsor {
+    height:50px;
+    width:300px;
   }
 }
 
@@ -73,6 +83,11 @@ and (max-width:900px) {
     height: 700px;
   }
 
+  .image-sponsor {
+    height:50px;
+    width:300px;
+  }
+
 }
 
 @media (min-width:901px)
@@ -96,6 +111,11 @@ and (max-width:991px){
   #contact {
     height: 700px;
   }
+
+  .image-sponsor {
+    height:50px;
+    width:300px;
+  }
 }
 
 @media (min-width:992px)
@@ -108,10 +128,6 @@ and (max-width:1200px) {
     height:1200px;
   }
 
-  #testimonials {
-    height:2000px
-  }
-
   #registration {
     height:500px;
   }
@@ -122,6 +138,7 @@ and (max-width:1200px) {
 }
 
 @media (min-width:1201px) {
+
   #clubs {
     height:800px;
   }

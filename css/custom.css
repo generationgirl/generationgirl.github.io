@@ -286,6 +286,11 @@ position: absolute; top:0; left: 0; width: 100%; height: 100%;
   width: 400px;
 }
 
+.image-horizontal {
+  height:500px;
+  width:300px;
+}
+
 .image-meet {
   border-radius: 50%;
   height:155px;
@@ -294,7 +299,7 @@ position: absolute; top:0; left: 0; width: 100%; height: 100%;
 
 .image-sponsor {
   height:90px;
-  width:400px;
+  width:500px;
 }
 
 .header-image{
