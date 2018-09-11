@@ -1,18 +1,66 @@
 #header {
-  background:url('../img/geng1.jpg');
+  background:url('../img/geng1alt.jpg');
   margin: 0;
-  height: 800px;
   padding: 200px 0 260px 0;
   background-size: cover;
+  height: 450px;
+}
+
+#navbar ul li a{
+	font-family: 'Source Sans Pro';
+	font-weight: bold;
+	letter-spacing: 2;
+	font-size: 10pt;
+}
+
+#navbar ul li a:link{
+	color: '#000000';
+}
+
+#navbar ul li a:hover {
+  	color: 'a5e5d9';
+}
+
+#navbar ul li a:focus {
+  	background-color: rgba(175,238,238);
+}
+
+#headertext{
+/* 	background-color: '#000000'; */
+	position: absolute;
+	background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,100));
+	width: 100%;
+	height: 460px;
+	opacity : .6;
+	top: 0;
+}
+
+#headerbody{
+	padding-top: 200px;
+	position: absolute;
+	color: #ffffff;
 }
 
 #about {
   background-color: #fff;
-  height: 300px;
   margin: 0;
-  padding: 60px 0 260px 0;
   overflow: hidden;
   background-size: cover;
+  text-align: center;
+  height: 350px;
+}
+
+#aboutusdiv{
+	padding-top: 20px;
+}
+
+#meettheteamdiv{
+	padding-top: 20px;
+}
+
+#gengalt{
+	width: 40px;
+	height: 40px;
 }
 
 #clubs {
@@ -66,12 +114,16 @@
   overflow: hidden;
 }
 
-/*#logo {
-  float: left;
-  height: 45px;
-  width: 45px;
-  margin-top: -15px;
-}*/
+#logo{
+	width: 150px;
+	margin-top: 5px;
+	padding-left: 5px;
+}
+
+.rectangle{
+	display: block;
+	margin: 0 auto;
+}
 
 h1 {
   font-family:'Source Sans Pro', sans-serif;
@@ -94,9 +146,11 @@ h5 {
 
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
-  color:#004987;
-  font-size: 50;
-  font-weight: bold;
+  color:#000000;
+  font-size: 34;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 5;
 }
 
 p {
@@ -104,6 +158,16 @@ p {
   color:#fff;
   font-size: 14px;
   align: justify;
+}
+
+#aboutustext{
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#000000;
+  font-size: 14px;
+  text-align: center;
 }
 
 h3 {
@@ -182,14 +246,6 @@ a {
 .fa {
   padding-bottom: 10px;
   color: #ff4338;
-}
-
-#navbar ul li a:hover {
-  background-color: rgba(175,238,238);
-}
-
-#navbar ul li a:focus {
-  background-color: rgba(175,238,238);
 }
 
 .responsiveCal {
