@@ -1,19 +1,19 @@
 @media (max-width:400px){
 
   #header {
-    height:700px;
+    height:400px;
   }
 
   #about {
     height:500px;
   }
 
-  #winterclub {
-    height:800px;
+  #clubs {
+    height:1200px;
   }
 
-  #testimonials {
-    height:2200px
+  #meet {
+    height:2400px;
   }
 
   #registration {
@@ -28,19 +28,19 @@
 @media (min-width:401px)
 and (max-width:500px) {
   #header {
-    height:500px;
+    height:400px;
   }
 
   #about {
-    height:1000px;
+    height:500px;
   }
 
-  #summerclub {
-    height:1000px;
+  #clubs {
+    height:1200px;
   }
 
-  #testimonials {
-    height:2000px
+  #meet {
+    height:3000px;
   }
 
   #registration {
@@ -54,15 +54,15 @@ and (max-width:500px) {
 @media (min-width:501px)
 and (max-width:900px) {
   #about {
-    height:700px;
+    height:500px;
   }
 
-  #summerclub {
-    height:800px;
+  #clubs {
+    height:1200px;
   }
 
-  #testimonials {
-    height:2000px
+  #meet {
+    height:2000px;
   }
 
   #registration {
@@ -81,12 +81,12 @@ and (max-width:991px){
     height:500px;
   }
 
-  #summerclub {
-    height:800px;
+  #clubs {
+    height:900px;
   }
 
-  #testimonials {
-    height:2000px
+  #meet {
+    height:2000px;
   }
 
   #registration {
@@ -104,8 +104,8 @@ and (max-width:1200px) {
     height:500px;
   }
 
-  #summerclub {
-    height:800px;
+  #clubs {
+    height:1200px;
   }
 
   #testimonials {
@@ -122,6 +122,9 @@ and (max-width:1200px) {
 }
 
 @media (min-width:1201px) {
+  #clubs {
+    height:800px;
+  }
   #testimonials {
     height:900px
   }

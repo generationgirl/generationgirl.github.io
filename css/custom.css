@@ -91,15 +91,15 @@
 }
 
 #contact {
-  background-color: #FFF;
-  height: 500px;
+  background-color: #a5e5d9;
+  height: 400px;
   margin: 0;
   padding: 60px 0 260px 0;
   overflow: hidden;
 }
 
 #sponsors {
-  background-color: #a5e5d9;
+  background-color: #ffff;
   height: 400px;
   margin: 0;
   padding: 60px 0 260px 0;
@@ -167,6 +167,16 @@ p {
   font-family: 'Source Sans Pro', sans-serif;
   color:#000000;
   font-size: 14px;
+  text-align: center;
+}
+
+#contactustext{
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#000000;
+  font-size: 20px;
   text-align: center;
 }
 
