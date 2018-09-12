@@ -297,9 +297,12 @@ position: absolute; top:0; left: 0; width: 100%; height: 100%;
   width: 145px;
 }
 
-.image-sponsor {
-  height:90px;
-  width:500px;
+.image-sequoia {
+  width:400px;
+}
+
+.image-wework {
+  width:400px;
 }
 
 .header-image{
