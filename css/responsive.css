@@ -30,7 +30,7 @@
   }
 
   #sponsors{
-    height: 600px
+    height: 400px
   }
 }
 
@@ -65,7 +65,7 @@ and (max-width:500px) {
   }
 
   #sponsors{
-    height: 700px
+    height: 500px
   }
 }
 
@@ -97,7 +97,7 @@ and (max-width:900px) {
   }
 
   #sponsors{
-    height: 700px
+    height: 500px
   }
 
 }
@@ -130,7 +130,7 @@ and (max-width:991px){
   }
 
   #sponsors{
-    height: 700px
+    height: 500px
   }
 }
 
@@ -158,7 +158,7 @@ and (max-width:1200px) {
   }
 
   #sponsors{
-    height: 700px
+    height: 500px
   }
 }
 
@@ -177,7 +177,7 @@ and (max-width:1200px) {
   }
 
   #sponsors{
-    height: 600px
+    height: 500px
   }
 }
 
