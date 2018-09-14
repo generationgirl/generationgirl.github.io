@@ -13,11 +13,8 @@
   }
 
   #meet {
-<<<<<<< HEAD
-    height:2000px;
-=======
-    height:4000px;
->>>>>>> redesign
+    height:3900px;
+
   }
 
   #registration {
@@ -53,7 +50,7 @@ and (max-width:500px) {
   }
 
   #meet {
-    height:2000px;
+    height:4000px;
   }
 
   #registration {
@@ -84,7 +81,8 @@ and (max-width:900px) {
   }
 
   #meet {
-    height:2000px;
+    height:7000px;
+
   }
 
   #registration {
@@ -117,7 +115,8 @@ and (max-width:991px){
   }
 
   #meet {
-    height:2000px;
+    height:4000px;
+
   }
 
   #registration {
