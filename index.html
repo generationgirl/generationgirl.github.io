@@ -61,7 +61,7 @@
 
   <div id = "headertext">
 	  	<div class = "headerbody">
-			<h3>Geng Up!</h3>
+			<img src=img/gengheader.png class="header-image">
 	  	</div>
   </div>
 
@@ -73,9 +73,8 @@
 
 	        <div id = "aboutusdiv">
             	<h2 class="section heading" align="center">About Us</h2>
-
-	    	  <svg class = 'rectangle' width = "80" height = '20'>
-			  	<rect width="80" height="20" style="fill:#f2dede;" />
+	    	    <svg class = 'rectangle' width = "80" height = '20'>
+			  		<rect width="80" height="20" style="fill:#f2dede;" />
 			    </svg>
 	          <p id = "aboutustext">Generation Girl is founded by women who lead the Indonesian tech world today. In this male-dominated field, reaching the top was a difficult journey for us . Now, we wish to make this journey easier for the next generation of women leaders.</p>
 	          <br>
@@ -88,13 +87,16 @@
   <!--clubs section-->
   <section id="clubs">
       <div class="row">
-        <h1 class="section heading" align="center">Our Clubs</h1>
-        <div class="container">
+        <h2 class="section heading" align="center" style="color:#ffffff;">Our Clubs</h2>
+	     <svg class = 'rectangle' width = "80" height = '20'>
+          <rect width="80" height="20" style="fill:#a5e5d9;" />
+         </svg>
+        <div class="container" id = "clubscontent">
           <div class="col-lg-6" align="center">
             <img src=img/winterclub.png class="image-rectangle">
             <div class="row" align="center">
-              <h1>Winter Club</h1>
-              <p align="center">December 17-21</p>
+              <h2 style="color:#a5e5d9;">Winter Club</h2>
+              <h6 align="center">December 17 - 21</h6>
               <!-- Button trigger modal -->
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#winterModal">
                 Find Out More
@@ -104,8 +106,8 @@
           <div class="col-lg-6" align="center">
             <img src=img/summerclub.png class=" image-rectangle">
             <div class="row" align="center">
-              <h1>Summer Club</h1>
-              <p align="center">Coming Soon in 2019</p>
+              <h2 style="color:#a5e5d9;">Summer Club</h2>
+              <h6 align="center">Coming Soon in 2019</h6>
               <!-- Button trigger modal -->
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#summerModal">
                 Find Out More
@@ -123,8 +125,13 @@
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div class="modal-body" align="center">
-                    <img src="img/winterclubposter.jpeg" class="image-horizontal">
+                  <div class="modal-body center">
+<!--
+                    <h4>Ever seen a website you liked? Or wonder how they are made? We will be teaching cool stuff on web development in our Winter Club program, targeted for kids ages 12-14.</h4>
+                    <h4>Venue: WeWork Revenue Tower, Jakarta, Indonesia</h4>
+                    <h4>Dates: December 17-21</h4>
+-->
+					<img src = "img/winterclubposter.jpeg" alt = "winter club poster" class = "posters" align="center">
                     <h4>Register:</h4>
                     <a class="btn btn-primary" href="http://bit.ly/wintermentor" role="button">As Mentor</a> <a class="btn btn-primary" href="https://generationgirl.typeform.com/to/lWzL4W" role="button">As Rookie</a>
                   </div>
@@ -234,18 +241,9 @@
           <svg class = 'rectangle' width = "80" height = '20'>
           <rect width="80" height="20" style="fill:#f2dede;" />
           </svg>
-          <div class="row"></div>
-          <div class="row">
-            <div class="col-lg-12 text-center">
-            <img src=img/sequoia.jpeg class="image-sequoia">
-            </div>
-          </div>
-          <div class="row"></div>
-          <div class="row">
-            <div class="col-lg-12 text-center">
-            <img src=img/wework.jpeg class="image-wework">
-            </div>
-          </div>
+          <div class="row" id = "sponsorcontent">
+            	<img src=img/sequoia.jpeg class="image-sponsor"><br><br>
+            	<img src = img/WeWork-Logo.jpg class = "image-sponsor">
           </div>
         </div>
       </div>
@@ -254,10 +252,10 @@
   <section id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
+        <div class="col-lg-12 text-center" id = "contacttitle">
           <h2 class="section heading">Contact Us</h2>
           <svg class = 'rectangle' width = "80" height = '20'>
-          <rect width="80" height="20" style="fill:#f2dede;" />
+          <rect width="80" height="20" style="fill:#ffffff;" />
          </svg>
         </div>
       </div>
@@ -289,7 +287,7 @@
   <!-- Footer -->
   <footer>
       <div class="container text-center">
-          <h4>Website developed and designed by <a href="https://github.com/alfitriv"><i class="fa fa-github" aria-hidden="true">alfitriv</i></a> <a href="https://github.com/tsabitachave"><i class="fa fa-github" aria-hidden="true">tsabitachave</i></a> <a href="https://id.linkedin.com/in/josephine-bahari-2416567b"><i class="fa fa-linkedin" aria-hidden="true">Josephine</i></a> , 2018</h4>
+          <h4>Website developed and designed by <a href="https://github.com/alfitriv"><i class="fa fa-github" aria-hidden="true"> alfitriv</i></a> <a href="https://github.com/tsabitachave"><i class="fa fa-github" aria-hidden="true"> tsabitachave</i></a> <a href="https://id.linkedin.com/in/josephine-bahari-2416567b"><i class="fa fa-linkedin" aria-hidden="true"> Josephine</i></a> , 2018</h4>
       </div>
   </footer>
 
