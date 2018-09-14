@@ -13,7 +13,7 @@
   }
 
   #meet {
-    height:2400px;
+    height:4000px;
   }
 
   #registration {
@@ -47,7 +47,7 @@ and (max-width:500px) {
     height:700px;
   }
   #contact {
-    height: 700px;
+    height: 600px;
   }
 }
 
