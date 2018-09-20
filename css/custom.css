@@ -197,6 +197,13 @@ h6 {
   text-align: center;
 }
 
+#ourclubscontent{
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#ffff;
+  font-size: 14px;
+  text-align: justify;
+}
+
 #contacttitle{
 	padding-bottom: 50px;
 }
