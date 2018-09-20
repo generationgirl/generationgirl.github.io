@@ -14,8 +14,8 @@
 
   #meet {
     height:3900px;
-
   }
+
 
   #registration {
     height:700px;
@@ -31,7 +31,7 @@
   }
 
   #sponsors{
-    height: 400px
+    height: 800px
   }
 }
 
@@ -66,7 +66,7 @@ and (max-width:500px) {
   }
 
   #sponsors{
-    height: 500px
+    height: 800px
   }
 }
 
@@ -99,7 +99,7 @@ and (max-width:900px) {
   }
 
   #sponsors{
-    height: 500px
+    height: 800px
   }
 
 }
@@ -133,7 +133,7 @@ and (max-width:991px){
   }
 
   #sponsors{
-    height: 500px
+    height: 700px
   }
 }
 
@@ -161,7 +161,7 @@ and (max-width:1200px) {
   }
 
   #sponsors{
-    height: 500px
+    height: 800px
   }
 }
 
@@ -180,7 +180,7 @@ and (max-width:1200px) {
   }
 
   #sponsors{
-    height: 500px
+    height: 900px
   }
 }
 

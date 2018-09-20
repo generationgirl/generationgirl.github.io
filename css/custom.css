@@ -328,6 +328,11 @@ position: absolute; top:0; left: 0; width: 100%; height: 100%;
   width: 400px;
 }
 
+.image-nostra {
+  height:400px;
+  width: 400px;
+}
+
 .image-horizontal {
   height:500px;
   width:300px;
