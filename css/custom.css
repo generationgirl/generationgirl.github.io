@@ -245,6 +245,11 @@ a {
   text-decoration: none;
 }
 
+button {
+  top: 5px;
+  margin-top: 5px;
+}
+
 
 .portfolio-box {
   position:relative;
