@@ -250,6 +250,20 @@ button {
   margin-top: 5px;
 }
 
+.dropdown-menu{
+/* 	width: 175px; */
+	width : 100%;
+	text-align: center;
+}
+
+.dropdown-item{
+	color: #4d4d4d;
+}
+
+.dropdown-item:hover{
+	text-decoration: none;
+	color: #004987;
+}
 
 .portfolio-box {
   position:relative;
@@ -322,14 +336,15 @@ position: absolute; top:0; left: 0; width: 100%; height: 100%;
   padding-bottom:10px;
 }
 
-.image {
-  border-radius: 50%;
-  height:400px;
+.image-rectangle {
+  height:300px;
   width: 400px;
 }
 
-.image-rectangle {
-  height:300px;
+/*
+.image {
+  border-radius: 50%;
+  height:400px;
   width: 400px;
 }
 
@@ -342,26 +357,24 @@ position: absolute; top:0; left: 0; width: 100%; height: 100%;
   height:500px;
   width:300px;
 }
+*/
 
 .image-meet {
   border-radius: 50%;
-/*   height:155px; */
-/*   clip-path: ellipse(70px 70px); */
   width: 100%;
   max-width: 100%;
   height: auto;
 }
 
-.image-sponsor {
-  width:400px;
-}
-
-.image-seq {
-  width:800px;
+img.image-sponsor {
+	max-width: 70%;
+	height: auto;
 }
 
 #sponsorcontent{
 	padding-top: 50px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .header-image{
