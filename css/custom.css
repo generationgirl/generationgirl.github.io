@@ -109,9 +109,15 @@
 
 #sponsors {
   background-color: #ffff;
-  height: 500px;
   margin: 0;
   overflow: hidden;
+}
+
+#igfeed{
+	background-color: #f2dede;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 #footer {
@@ -377,6 +383,7 @@ position: absolute; top:0; left: 0; width: 100%; height: 100%;
 img.image-sponsor {
 	max-width: 70%;
 	height: auto;
+	vertical-align: middle;
 }
 
 #sponsorcontent{

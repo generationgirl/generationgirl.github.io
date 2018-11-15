@@ -13,7 +13,7 @@
   }
 
   #meet {
-    height:4000px;
+    height:3900px;
   }
 
 
@@ -28,10 +28,11 @@
   .image-sponsor {
     height:50px;
     width:300px;
+    padding-bottom: 20px;
   }
 
   #sponsors{
-    height: 800px
+    height: 700px;
   }
 }
 
@@ -50,7 +51,7 @@ and (max-width:500px) {
   }
 
   #meet {
-    height:5000px;
+    height:4500px;
   }
 
   #registration {
@@ -63,10 +64,11 @@ and (max-width:500px) {
   .image-sponsor {
     height:50px;
     width:300px;
+    padding-bottom: 20px;
   }
 
   #sponsors{
-    height: 800px
+    height: 700px;
   }
 }
 
@@ -81,7 +83,7 @@ and (max-width:900px) {
   }
 
   #meet {
-    height:7000px;
+    height:4900px;
 
   }
 
@@ -96,10 +98,11 @@ and (max-width:900px) {
   .image-sponsor {
     height:50px;
     width:300px;
+    padding-bottom: 20px;
   }
 
   #sponsors{
-    height: 800px
+    height: 700px;
   }
 
 }
@@ -115,7 +118,7 @@ and (max-width:991px){
   }
 
   #meet {
-    height:7000px;
+    height:5000px;
 
   }
 
@@ -130,10 +133,11 @@ and (max-width:991px){
   .image-sponsor {
     height:50px;
     width:300px;
+    padding-bottom: 20px;
   }
 
   #sponsors{
-    height: 700px
+    height: 700px;
   }
 }
 
@@ -156,13 +160,14 @@ and (max-width:1200px) {
   }
 
   .image-sponsor {
-    height:90px;
-    width:500px;
+    vertical-align: middle;
+	max-height: 90px;
   }
 
   #sponsors{
-    height: 800px
+    height: 350px;
   }
+  
 }
 
 @media (min-width:1201px) {
@@ -175,13 +180,14 @@ and (max-width:1200px) {
   }
 
   .image-sponsor {
-    height:90px;
-    width:500px;
+	vertical-align: middle;
+	max-height: 90px;
   }
 
   #sponsors{
-    height: 900px
+    height: 350px;
   }
+ 
 }
 
 @media (device-height: 568px) and (device-width: 320px) and (webkit-min-device-pixel-ratio: 2) {
