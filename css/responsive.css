@@ -5,15 +5,15 @@
   }
 
   #about {
-    height:700px;
+    height:800px;
   }
 
   #clubs {
-    height:1700px;
+    height:2000px;
   }
 
   #meet {
-    height:3900px;
+    height:4000px;
   }
 
 
@@ -42,15 +42,15 @@ and (max-width:500px) {
   }
 
   #about {
-    height:500px;
+    height:650px;
   }
 
   #clubs {
-    height:1700px;
+    height:2000px;
   }
 
   #meet {
-    height:4000px;
+    height:5000px;
   }
 
   #registration {
@@ -73,11 +73,11 @@ and (max-width:500px) {
 @media (min-width:501px)
 and (max-width:900px) {
   #about {
-    height:500px;
+    height:600px;
   }
 
   #clubs {
-    height:1600px;
+    height:2000px;
   }
 
   #meet {
@@ -111,11 +111,11 @@ and (max-width:991px){
   }
 
   #clubs {
-    height:1600px;
+    height:2000px;
   }
 
   #meet {
-    height:4000px;
+    height:7000px;
 
   }
 
