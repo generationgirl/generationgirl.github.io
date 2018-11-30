@@ -28,7 +28,8 @@
   .image-sponsor {
     height:50px;
     width:300px;
-    padding-bottom: 20px;
+    padding: 10px;
+/*     padding-bottom: 20px; */
   }
 
   #sponsors{
@@ -63,8 +64,8 @@ and (max-width:500px) {
 
   .image-sponsor {
     height:50px;
-    width:300px;
-    padding-bottom: 20px;
+    width:200px;
+/*     padding-bottom: 20px; */
   }
 
   #sponsors{
@@ -83,7 +84,7 @@ and (max-width:900px) {
   }
 
   #meet {
-    height:4900px;
+    height:7000px;
 
   }
 
@@ -118,7 +119,7 @@ and (max-width:991px){
   }
 
   #meet {
-    height:5000px;
+    height:7000px;
 
   }
 
@@ -137,7 +138,7 @@ and (max-width:991px){
   }
 
   #sponsors{
-    height: 700px;
+    height: 400px;
   }
 }
 
@@ -161,11 +162,10 @@ and (max-width:1200px) {
 
   .image-sponsor {
     vertical-align: middle;
-	max-height: 90px;
   }
 
   #sponsors{
-    height: 350px;
+    height: 500px;
   }
   
 }
@@ -181,11 +181,10 @@ and (max-width:1200px) {
 
   .image-sponsor {
 	vertical-align: middle;
-	max-height: 90px;
   }
 
   #sponsors{
-    height: 350px;
+    height: 500px;
   }
  
 }
