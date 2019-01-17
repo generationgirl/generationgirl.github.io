@@ -99,6 +99,15 @@
   background-size: cover;
 }
 
+#press {
+  background: #fff;
+  height: 500px;
+  margin:0;
+  padding: 60px 0 260px 0;
+  overflow: hidden;
+  background-size: cover;
+}
+
 #contact {
   background-color: #a5e5d9;
   height: 400px;
@@ -464,5 +473,13 @@ img{
 .contact-square{
   height:40px;
   width:40px;
+}
+
+iframe {
+  width: 1000px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #FFF;
+  display: block;
 }
 
