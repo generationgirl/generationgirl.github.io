@@ -1,0 +1,27 @@
+#logo{
+	width: 150px;
+	margin-top: 5px;
+	padding-left: 5px;
+}
+
+#header {
+    background-color:white;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    height: 450px;
+}
+
+#club{
+    background-color: beige;
+    height: 500px;
+    margin: 0;
+    padding: 60px 0 260px 0;
+    overflow: hidden;
+    background-size: cover;
+}
+
+h1{
+    color: black;
+}
+
