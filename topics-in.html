@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!--bootstrap css-->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!--javascript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!--custom fonts-->
     <link href="css/topics-custom.css" rel="stylesheet">
@@ -33,14 +37,10 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse navbar-right navbar-main-collapse">
             <ul class="nav navbar-nav">
-              <li><a href="#clubs" class="page-scroll"><b>CLUB KAMI</b></a></li>
-              <li><a href="#contact" class="page-scroll"><b>TOPIK SUMMER CLUB</b></a></li>
-              <li><a href="https://medium.com/@generationgirl.id" class="page-scroll"><b>MENTORS DAN ROOKIES</b></a></li>
-              <li><a href="https://medium.com/@generationgirl.id" class="page-scroll"><b>GALLERY</b></a></li>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="en.html">ENGLISH</a>
-              </div>
-              </li>
+              <li><a href="#club" class="page-scroll"><b>CLUB KAMI</b></a></li>
+              <li><a href="#club" class="page-scroll"><b>TOPIK SUMMER CLUB</b></a></li>
+              <li><a href="#mentorsrookies" class="page-scroll"><b>MENTORS DAN ROOKIES</b></a></li>
+              <li><a href="#gallery" class="page-scroll"><b>GALLERY</b></a></li>
             </ul>
           </div>
         </div>
@@ -52,9 +52,122 @@
 
     <!--Club-->
     <section id="club">
-        
+        <div class="row">
+            <div class="container">
+                <div class="col-sm-6">
+                    <h1>Club Kami</h1>
+                    <p class="lead">Yuk jangan ketinggalan sama keseruan acara Summer Club persembahan Generation Girl! Acara ini akan diadakan tanggal 17 Juni sampai 26 Juli, terbuka untuk para rookies yang tertarik untuk ikutan! Mentor kami akan membuat dan mengajarkan kurikulum dengan topik yang lebih bervariasi. Kamu pun bebas memilih topik yang kamu inginkan. Kali ini, club kami akan berlangsung selama 6 minggu, tapi kamu boleh memilih minggu mana saja yang ingin kamu ikuti dan topik apa yang ingin kamu pelajari per minggunya. Pssst, club nya gratis loh! ;)</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <h1>Topik Summer Club</h1>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/web-dev.jpg" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1>Membuat Website</h1>
+                                    <p class="lead">Penasaran nggak sih bikin website tuh caranya gimana? Nah, disini kamu bisa belajar hal hal mendasar tentang HTML, CSS dan JavaScript. Kamu bakal diajarin gimana cara bikin website yang interaktif, mulai dari “Hello World!” yang simple, sampai gimana cara integrasi tools-tools bawaan dari app lain, contohnya Google Maps. Di akhir minggu, kamu bakal ditantang untuk bikin website dari nol! Seru banget kan?</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/mobile-dev.jpg" alt="Second slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1>Membuat Mobile App</h1>
+                                    <p class="lead">Punya ide cemerlang yang akan membuat semua orang terpaku dengan hp nya? Yuk gabung untuk mempelajari lebih dalam mengenai mobile development dengan Android! Dari membuat sebuah tombol sampai mempelajari bagaimana mengimplementasi navigasi, topik ini akan membantumu membuat aplikasi pertamamu yang bisa di publish ke playstore! ;)</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/backend.png" alt="Third slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1>Backend untuk pemula</h1>
+                                    <p class="lead">Membuat tampilan web itu belum seberapa loh, karena kamu bisa belajar lebih mendalam lagi dengan topik ini! Disini kamu bakal belajar gimana caranya memproses input user, menaruh informasi tersebut ke dalam database, dan mentransfer hasil outputnya kembali ke user. Semacam melihat ‘di balik layar’ gimana caranya website memproses informasi dengan logic!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+            </div>
+        </div>
     </section id>
-    
+
+    <!--Mentors and Rookies-->
+    <section id="mentorsrookies">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 align="center">Mentors</h1>
+                <p class="lead" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            <div class="col-md-6">
+                <img src="img/summerclub.png" class="image-rectangle">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/summerclub.png" class="image-rectangle">
+            </div>
+            <div class="col-md-6">
+                <h1 align="center">Rookies</h1>
+                <p class="lead" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            </div>
+     </section id>
+
+     <!--Gallery-->
+     <section id="gallery">
+         <div class="row">
+             <div class="container">
+                 <div class="col-md-6">
+                     <h1>Gallery</h1>
+                 </div>
+             </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-3">
+                <img src="img/genglogoalt.png" alt="..." class="image-gallery">
+            </div>
+            <div class="col-sm-3">
+                <img src="img/genglogoalt.png" alt="..." class="image-gallery">
+            </div>
+            <div class="col-sm-3">
+                <img src="img/genglogoalt.png" alt="..." class="image-gallery">
+            </div>
+            <div class="col-sm-3">
+                <img src="img/genglogoalt.png" alt="..." class="image-gallery">
+            </div>      
+        </div>
+     </section>
+     
+     <!--Contact-->
+     <section id="contact">
+        <div class="row">
+            <div class="container">
+                <div class="col-md-6">
+                    <h1>Contact</h1>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!--Footer-->
+     <section id= "footer">
+        <div class="row">
+            <div class="container">
+                <div class="col-md-6">
+                    <h1>Copyright</h1>
+                </div>
+            </div>
+        </div> 
+     </section>
 
   
         
@@ -137,12 +250,6 @@
     </section> -->
 
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
 

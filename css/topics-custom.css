@@ -14,8 +14,44 @@
 
 #club{
     background-color: beige;
-    height: 500px;
+    height: 1500px;
     margin: 0;
+    padding: 60px 0 260px 0;
+    overflow: hidden;
+    background-size: cover;
+}
+
+#mentorsrookies{
+    background-color: white;
+    height: 900px;
+    margin: 0;
+    padding: 60px 0 260px 0;
+    overflow: hidden;
+    background-size: cover;
+}
+
+#gallery{
+    background-color: beige;
+    height: 600px;
+    margin: 0;
+    padding: 60px 0 260px 0;
+    overflow: hidden;
+    background-size: cover;
+}
+
+#contact{
+    background: #D3D3D3;
+    height: 400px;
+    margin:0;
+    padding: 60px 0 260px 0;
+    overflow: hidden;
+    background-size: cover;
+}
+
+#footer{
+    background: #f2dede;
+    height: 100px;
+    margin:0;
     padding: 60px 0 260px 0;
     overflow: hidden;
     background-size: cover;
@@ -23,5 +59,20 @@
 
 h1{
     color: black;
+}
+
+.image-rectangle {
+    height:300px;
+    width: 400px;
+}
+
+.image-carousel {
+    height: 400px;
+    width: 600px;
+}
+
+.image-gallery {
+    height: 300px;
+    width: 300px;
 }
 
