@@ -1,7 +1,19 @@
 #logo{
-	width: 150px;
+	width: 160px;
 	margin-top: 5px;
 	padding-left: 5px;
+	padding-top: 10px;
+}
+
+.container-fluid{
+	background-color: white;
+	height: 70px;
+	box-shadow: 1px 0.5px 30px #4d4d4d;
+}
+
+#navbar{
+	padding-top: 10px;
+	font-family: "Source Sans Pro", sans-serif;
 }
 
 #header {
@@ -13,32 +25,46 @@
 }
 
 #club{
-    background-color: beige;
-    height: 1500px;
+    background-color: #ffffff;
+    height: 1300px;
     margin: 0;
     padding: 60px 0 260px 0;
     overflow: hidden;
     background-size: cover;
+    font-family: "Source Sans Pro", sans-serif;
+    border-top-width:2px;  
+    border-top-style:dashed;
+    border-top-color: #d8d8d8;
 }
 
 #mentorsrookies{
     background-color: white;
     margin: 0;
-    padding: 200px 0 260px 0;
+    padding: 100px 0 260px 0;
     background-size: cover;
     height: 900px;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
-#gallery{
-  background-color: #f2dede;
-  margin: 0;
-  padding: 60px 0 260px 0;
-  background-size: cover;
-  height: 500px;
+#foot{
+	height:300px;
+	background-color: #d8d8d8;
+	padding: 60px 0 260px 0;
+	text-align: center;
 }
 
 h1{
-    color: black;
+    color: #004b85;
+    font-weight: 700;
+}
+
+.lead{
+	font-size: 12pt;
+}
+
+blockquote{
+	font-size: 16pt;
+	font-style: italic;
 }
 
 .image-rectangle{
@@ -46,3 +72,49 @@ h1{
   width: 400px;
 }
 
+/* Font Awesome */
+
+.fa {
+  padding: 20px;
+  font-size: 100pt;
+  width: 300px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+/* Envelope */
+.fa-envelope {
+  background: #ffffff;
+  color: #004b85;
+}
+
+.fa-instagram {
+  background: #ffffff;
+  color: #004b85;
+}
+
+.fa-heart {
+  background: #ffffff;
+  color: #004b85;
+}
+
+.flag {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url('css/flags.png') no-repeat;
+}
+
+
+.flag.flag-gb {
+    background-position: -24px 0;
+}
+
+.flag.flag-id {
+    background-position: 0 -24px;
+}
