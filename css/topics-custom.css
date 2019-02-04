@@ -46,16 +46,38 @@
     font-family: "Source Sans Pro", sans-serif;
 }
 
+.icons{
+	width:500px;
+	text-align: center;
+}
+
 #foot{
-	height:300px;
-	background-color: #d8d8d8;
-	padding: 60px 0 260px 0;
+	height:250px;
+	background-color: #eeeeee;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+footer{
+	height: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #f2dede;
 	text-align: center;
 }
 
 h1{
     color: #004b85;
     font-weight: 700;
+}
+
+h4{
+	font-weight: 700;
+	font-size: 11pt;
+	letter-spacing: 2pt;
+	color: #004b85;
+	font-family: "Source Sans Pro", sans-serif;
 }
 
 .lead{
@@ -67,6 +89,35 @@ blockquote{
 	font-style: italic;
 }
 
+.btn-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    color:#004b85;
+}
+
+.btn-default{
+	color: #ffffff;
+	background-image: none;
+	border:none;
+	box-shadow: none;
+}
+
+.btn:hover{
+	background-color: #ffffff;
+}
+
+.linkfoot{
+	text-decoration: none;
+}
+
+.linkfoot:hover{
+	text-decoration: none;	
+	color:#ffffff;
+}
+
 .image-rectangle{
   height: 300px;
   width: 400px;
@@ -74,34 +125,40 @@ blockquote{
 
 /* Font Awesome */
 
-.fa {
-  padding: 20px;
-  font-size: 100pt;
-  width: 300px;
-  text-align: center;
-  text-decoration: none;
-}
 
-.fa:hover {
-  opacity: 0.7;
-  text-decoration: none;
-}
-
-/* Envelope */
-.fa-envelope {
-  background: #ffffff;
-  color: #004b85;
-}
-
+/* Instagram */
 .fa-instagram {
-  background: #ffffff;
   color: #004b85;
 }
+
+.fa-instagram:hover {
+  text-decoration: none;
+  color:#a5e5d9;
+}
+
+/* Donate */
 
 .fa-heart {
-  background: #ffffff;
   color: #004b85;
 }
+
+.fa-heart:hover {
+  text-decoration: none;
+  color:#a5e5d9;
+}
+
+/* Contact Us */
+
+.fa-envelope {
+  color: #004b85;
+}
+
+.fa-envelope:hover {
+  text-decoration: none;
+  color:#a5e5d9;
+}
+
+/* Language Flags */
 
 .flag {
     display: block;
