@@ -14,14 +14,35 @@
 
 #club{
     background-color: beige;
-    height: 500px;
+    height: 1500px;
     margin: 0;
     padding: 60px 0 260px 0;
     overflow: hidden;
     background-size: cover;
 }
 
+#mentorsrookies{
+    background-color: white;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    height: 900px;
+}
+
+#gallery{
+  background-color: #f2dede;
+  margin: 0;
+  padding: 60px 0 260px 0;
+  background-size: cover;
+  height: 500px;
+}
+
 h1{
     color: black;
+}
+
+.image-rectangle{
+  height: 300px;
+  width: 400px;
 }
 
