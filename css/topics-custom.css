@@ -17,7 +17,7 @@
 }
 
 #header {
-    background-color:white;
+    background: url('../img/summerheader.png');
     margin: 0;
     padding: 200px 0 260px 0;
     background-size: cover;
