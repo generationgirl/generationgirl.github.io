@@ -175,3 +175,9 @@ blockquote{
 .flag.flag-id {
     background-position: 0 -24px;
 }
+
+.carousel-inner > .item > img {
+  width:1040px;
+  height:460px;
+}
+

@@ -31,12 +31,18 @@
 /*     padding-bottom: 20px; */
   }
 
+  .image-header {
+    background: url('../img/summerheader.png');
+    height: 400px;
+    width: 200px;
+  }
+
   #sponsors{
     height: 700px;
   }
 
   #club {
-    height:1100px;
+    height:1300px;
   }
 
   #mentorsrookies {
@@ -84,7 +90,7 @@ and (max-width:500px) {
   }
 
   #club {
-    height: 1100px;
+    height: 1300px;
   }
 
   #mentorsrookies {
@@ -98,6 +104,10 @@ and (max-width:500px) {
 
 @media (min-width:501px)
 and (max-width:900px) {
+  #header {
+    height: 500px;
+  }
+  
   #about {
     height:600px;
   }
@@ -145,6 +155,10 @@ and (max-width:900px) {
 
 @media (min-width:901px)
 and (max-width:991px){
+  #header {
+    height: 500px;
+  }
+
   #about {
     height:500px;
   }
@@ -177,7 +191,7 @@ and (max-width:991px){
   }
 
   #club {
-    height: 1400px;
+    height: 1100px;
   }
 
   #mentorsrookies {
@@ -187,6 +201,10 @@ and (max-width:991px){
 
 @media (min-width:992px)
 and (max-width:1200px) {
+  #header {
+    height: 500px;
+  }
+
   #about {
     height:500px;
   }
@@ -212,12 +230,15 @@ and (max-width:1200px) {
   }
 
   #club {
-    height: 1300px;
+    height: 1000px;
   }
   
 }
 
 @media (min-width:1201px) {
+  #header {
+    height: 600px;
+  }
 
   #clubs {
     height:1000px;
@@ -235,7 +256,7 @@ and (max-width:1200px) {
   }
 
   #club {
-    height: 1500px;
+    height: 900px;
   }
  
 }
