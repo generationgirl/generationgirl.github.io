@@ -52,6 +52,10 @@
   #foot {
     height: 500px;
   }
+
+  #topic-header {
+    height:400px;
+  }
 }
 
 @media (min-width:401px)
@@ -99,6 +103,10 @@ and (max-width:500px) {
 
   #foot {
     height: 500px;
+  }
+
+  #topic-header {
+    height:400px;
   }
 }
 
@@ -151,6 +159,10 @@ and (max-width:900px) {
     height: 500px;
   }
 
+  #topic-header {
+    height:500px;
+  }
+
 }
 
 @media (min-width:901px)
@@ -197,6 +209,10 @@ and (max-width:991px){
   #mentorsrookies {
     height: 1500px;
   }
+
+  #topic-header {
+    height:500px;
+  }
 }
 
 @media (min-width:992px)
@@ -232,12 +248,16 @@ and (max-width:1200px) {
   #club {
     height: 1000px;
   }
+
+  #topic-header {
+    height:500px;
+  }
   
 }
 
 @media (min-width:1201px) {
   #header {
-    height: 600px;
+    height: 400px;
   }
 
   #clubs {
@@ -257,6 +277,10 @@ and (max-width:1200px) {
 
   #club {
     height: 900px;
+  }
+
+  #topic-header {
+    height:600px;
   }
  
 }
