@@ -535,6 +535,92 @@ h1.title{
   font-family: "Source Sans Pro", sans-serif;
 }
 
+#foot{
+	height:250px;
+	background-color: #eeeeee;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.btn-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 40px;
+  color:#004b85;
+}
+
+.btn-default{
+color: #ffffff;
+background-image: none;
+border:none;
+box-shadow: none;
+}
+
+.btn:hover{
+background-color: #ffffff;
+}
+
+.linkfoot{
+text-decoration: none;
+}
+
+.linkfoot:hover{
+text-decoration: none;	
+color:#ffffff;
+}
+
+.image-rectangle{
+height: 300px;
+width: 400px;
+}
+
+.icons{
+	width:500px;
+	text-align: center;
+}
+
+.fa-instagram {
+  color: #004b85;
+}
+
+.fa-instagram:hover {
+  text-decoration: none;
+  color:#a5e5d9;
+}
+
+/* Donate */
+
+.fa-heart {
+  color: #004b85;
+}
+
+.fa-heart:hover {
+  text-decoration: none;
+  color:#a5e5d9;
+}
+
+/* Contact Us */
+
+.fa-envelope {
+  color: #004b85;
+}
+
+.fa-envelope:hover {
+  text-decoration: none;
+  color:#a5e5d9;
+}
+
+footer{
+	height: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #f2dede;
+	text-align: center;
+}
+
 
 
 
