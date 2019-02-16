@@ -526,5 +526,15 @@ h1.title{
   height:460px;
 }
 
+#mentorsrookies{
+  background-color: white;
+  margin: 0;
+  padding: 100px 0 260px 0;
+  background-size: cover;
+  height: 900px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+
 
 
