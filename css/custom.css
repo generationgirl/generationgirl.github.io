@@ -172,7 +172,6 @@ h1 {
   color:#FFF;
   font-size: 50;
   top: 10px;
-  text-shadow: 1px 1px 1px #000;
   font-weight: bold;
 
 }
@@ -484,6 +483,47 @@ iframe {
   margin: 0 auto;
   background-color: #FFF;
   display: block;
+}
+
+#topic-header {
+  background: url('../img/summerheader.png');
+  margin: 0;
+  padding: 200px 0 260px 0;
+  background-size: cover;
+  height: 450px;
+}
+
+#club{
+  background-color: #ffffff;
+  height: 1300px;
+  margin: 0;
+  padding: 60px 0 260px 0;
+  overflow: hidden;
+  background-size: cover;
+  font-family: "Source Sans Pro", sans-serif;
+  border-top-width:2px;  
+  border-top-style:dashed;
+  border-top-color: #d8d8d8;
+}
+
+h1.title{
+  color: #004b85;
+  font-weight: 700;
+}
+
+#paragraph{
+  color:#000000;
+  font-size: 14px;
+}
+
+#title{
+  color: #FFF;
+  font-weight: 700;
+}
+
+.carousel-inner > .item > img {
+  width:1040px;
+  height:460px;
 }
 
 
