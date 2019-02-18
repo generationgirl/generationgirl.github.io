@@ -622,5 +622,28 @@ footer{
 }
 
 
+#terms{
+	height:6300px;
+	color: #000000;
+	padding-top: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 100px;
+}
 
+.termshead{
+	color:#004b85;
+	font-family: "Source Sans Pro";
+	font-weight: 800;
+	font-size: 16pt;
+	box-shadow: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.termsdesc{
+	color:#000000;
+	font-family: "Source Sans Pro";
+	font-size: 12pt;
+}
 
