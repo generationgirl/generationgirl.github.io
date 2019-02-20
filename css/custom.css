@@ -647,3 +647,11 @@ footer{
 	font-size: 12pt;
 }
 
+#privacypolicy{
+  height:1300px;
+  color: #000000;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 100px;
+}
