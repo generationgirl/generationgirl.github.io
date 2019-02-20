@@ -1,4 +1,4 @@
-/* CSS for Generation Girl */
+ /* CSS for Generation Girl */
 
 /* HTML Overall */
 
@@ -100,7 +100,37 @@ html,body{
 	padding-right: 10px;
 }
 
+.imgteam{
+	border-radius: 50%;
+	width:100px;
+}
 
+.teamname{
+	padding-top: 10px;
+}
+
+/* Our Sponsors */
+
+#sponsors{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.sponsorimg{
+	max-width: 150px;
+	max-height: 100%;
+}
+
+/* Our Club */
+
+#ourclub{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
 
 /* --- FOOTER --- */
