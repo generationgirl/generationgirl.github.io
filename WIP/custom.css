@@ -112,7 +112,7 @@ html,body{
 /* Our Sponsors */
 
 #sponsors{
-	padding-top: 50px;
+	padding-top: 80px;
 	padding-bottom: 50px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -126,6 +126,86 @@ html,body{
 /* Our Club */
 
 #ourclub{
+	padding-top: 80px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.prev,.next{
+	font-size: 28pt;
+}
+
+.prev:hover, .next:hover{
+	color: #a5e5d9;
+}
+
+.clubtitle{
+	font-weight: 700;
+}
+
+.clubdate{
+	font-weight: 700;
+	background-color: #f2dede;
+	border-radius: 20px;
+	padding: 5px;
+	text-align: center;
+}
+
+/* Carousel Card */
+
+	/* equal card height */
+	.row-equal > div[class*='col-'] {
+	    display: flex;
+	    flex: 1 0 auto;
+	}
+
+	.row-equal .card {
+	   width: 100%;
+	}
+
+	/* ensure equal card height inside carousel */
+	.carousel-inner>.row-equal.active, 
+	.carousel-inner>.row-equal.next, 
+	.carousel-inner>.row-equal.prev {
+	    display: flex;
+	}
+
+	/* prevent flicker during transition */
+	.carousel-inner>.row-equal.active.left, 
+	.carousel-inner>.row-equal.active.right {
+	    opacity: 0.5;
+	    display: flex;
+	}
+
+
+	/* control image height */
+	.card-img-top-250 {
+	    max-height: 250px;
+	    overflow:hidden;
+	}
+
+	.card-block{
+		padding:20px;
+	}
+
+/* Instagram */
+
+#insta{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	border-top-style: dashed;
+	border-top-width: 3px;
+	border-top-color: #d8d8d8;
+}
+
+
+/* Publications */
+
+#publications{
 	padding-top: 50px;
 	padding-bottom: 50px;
 	padding-left: 10px;
@@ -134,3 +214,49 @@ html,body{
 
 
 /* --- FOOTER --- */
+
+/* Contact Us */
+
+#foot{
+	background-color: #eeeeee;
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.btncircle{
+	padding:20px;
+	background-color: #ffffff;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border-style: none;
+	font-size: 20pt;
+}
+
+.btncircle:hover{
+	color: #ffffff;
+	background-color: #a5e5d9;
+}
+
+.footlink{
+	letter-spacing: 2pt;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.footlink:hover{
+	color: #a5e5d9;
+	text-decoration: none;
+}
+
+footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #f2dede;
+	letter-spacing: 1pt;
+}
+
+

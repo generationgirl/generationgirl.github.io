@@ -51,8 +51,8 @@
 	  <div class="navbar-nav ml-auto">
 	      <a class="nav-item nav-link" href="#aboutus">Tentang Kami</a>
 	      <a class="nav-item nav-link" href="#ourclub">Club Kami</a>
-	      <a class="nav-item nav-link" href="#">Hubungi Kami</a>
-	      <a class="nav-item nav-link" href="#">Press</a>
+	      <a class="nav-item nav-link" href="#foot">Hubungi Kami</a>
+	      <a class="nav-item nav-link" href="http://medium.com/generation-girl">Press</a>
 	    </div>
 	  </div>
 	</nav>
@@ -211,9 +211,107 @@
 
 			<div class = "container">
 
-				<h2 class ="blue"><b>Club Kami</b></h2>
+				<div class = "row">
+					<div class = "col-lg-10">
+						<h2 class ="blue"><b>Club Kami</b></h2>
+					</div>
+					<div class = "col-lg-2 text-right">
+							<a class = "prev blue" href="" title="go back"><i class="fas fa-lg fa-angle-left"></i></a>
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<a class = "next blue" href="" title="more"><i class="fas fa-lg fa-angle-right"></i></a>
+					</div>
+				</div>
 
+				<br><br>
 
+				<section class="carousel slide" data-ride="carousel" id="postsCarousel">
+				    <div class="container p-t-0 m-t-2 carousel-inner">
+				        <div class="row row-equal carousel-item active m-t-0">
+				            <div class="col-md-4">
+				                <div class="card">
+				                    <div class="card-img-top card-img-top-250">
+				                        <img class="img-fluid" src="http://i.imgur.com/EW5FgJM.png" alt="Carousel 1">
+				                    </div>
+				                    <div class="card-block p-t-2">
+				                        <h4 class = "clubtitle blue">Build A Website</h4>
+
+				                        <p class = "clubdate blue">
+				                        	17 June - 26 July 2019
+				                        </p>
+
+				                        <p class = "clubdesc">
+				                        	Penasaran nggak sih bikin website tuh caranya gimana? Nah, disini kamu bisa belajar hal hal mendasar tentang HTML, CSS dan JavaScript. Kamu bakal diajarin gimana cara bikin website yang interaktif, mulai dari “Hello World!” yang simple, sampai gimana cara integrasi tools-tools bawaan dari app lain, contohnya Google Maps. Di akhir minggu, kamu bakal ditantang untuk bikin website dari nol! Seru banget kan?
+				                        </p>
+				                    </div>
+				                </div>
+				            </div>
+				            <div class="col-md-4">
+				                <div class="card">
+				                    <div class="card-img-top card-img-top-250">
+				                        <img class="img-fluid" src="http://i.imgur.com/Hw7sWGU.png" alt="Carousel 2">
+				                    </div>
+				                    <div class="card-block p-t-2">
+				                        <h4 class = "clubtitle blue">Backend for Beginners</h4>
+				                    </div>
+				                </div>
+				            </div>
+				            <div class="col-md-4">
+				                <div class="card">
+				                    <div class="card-img-top card-img-top-250">
+				                        <img class="img-fluid" src="http://i.imgur.com/g27lAMl.png" alt="Carousel 3">
+				                    </div>
+				                    <div class="card-block p-t-2">
+				                        <h4 class = "clubtitle blue">Build a Mobile App</h4>
+				                    </div>
+				                </div>
+				            </div>
+				        </div>
+				        <div class="row row-equal carousel-item m-t-0">
+				            <div class="col-md-4">
+				                <div class="card">
+				                    <div class="card-img-top card-img-top-250">
+				                        <img class="img-fluid" src="http://i.imgur.com/Hw7sWGU.png" alt="Carousel 4">
+				                    </div>
+				                    <div class="card-block p-t-2">
+				                        <h4 class = "clubtitle blue">Computer Science 101</h4>
+				                    </div>
+				                </div>
+				            </div>
+				            <div class="col-md-4">
+				                <div class="card">
+				                    <div class="card-img-top card-img-top-250">
+				                        <img class="img-fluid" src="http://i.imgur.com/Hw7sWGU.png" alt="Carousel 5">
+				                    </div>
+				                    <div class="card-block p-t-2">
+				                        <h4 class = "clubtitle blue">Web and App Design</h4>
+				                    </div>
+				                </div>
+				            </div>
+				            <div class="col-md-4 fadeIn wow">
+				                <div class="card">
+				                    <div class="card-img-top card-img-top-250">
+				                        <img class="img-fluid" src="http://i.imgur.com/Hw7sWGU.png" alt="Carousel 6">
+				                    </div>
+				                    <div class="card-block p-t-2">
+				                        <h4 class = "clubtitle blue">Robotics</h4>
+				                    </div>
+				                </div>
+				            </div>
+				        </div>
+				    </div>
+
+				<script js>
+					(function($) {
+					    "use strict";
+
+					    // manual carousel controls
+					    $('.next').click(function(){ $('.carousel').carousel('next');return false; });
+					    $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
+					    
+					})(jQuery);
+
+				</script>
+				</section>
 
 			</div>
 
@@ -222,17 +320,100 @@
 
 	</section>
 
+	<!-- Instagram -->
+
+	<div id = "insta">
+
+		<div class = "container">
+			<h2 class ="blue"> <span class = "fab fa-instagram"></span> <b>&nbsp;Instagram</b> </h2>
+
+			<br>
+
+			<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        	<div class="elfsight-app-d2b32b9e-b39f-4178-8971-90c1b52fa81c"></div>
+
+		</div>
+
+	</div>
+
+
+	<!-- Publications -->
+
+	<div id = "publications">
+
+		<div class = "container">
+			<h2 class ="blue"> <span class = "fab fa-medium"></span> <b>&nbsp;Publications</b> </h2>
+		</div>
+
+	</div>
+
+
+	<!-- Contact Us -->
+
+	<div id = "foot">
+		<div class = "container">
+
+			<div class = "row text-center">
+				<div class = "col">
+					&nbsp;
+				</div>
+				<div class = "col">
+						<a href = "http://instagram.com/generationgirl.id">
+							<button class="btncircle blue">
+								<span class = "fab fa-instagram"></span>
+							</button>
+						</a>
+
+						&nbsp;
+
+						<a href = "https://www.paypal.me/GenerationGirl"> 
+							<button class="btncircle blue">
+								<span class = "far fa-heart"></span>
+							</button>
+						</a>
+
+						&nbsp;
+
+						<a href = "mailto:generationgirl.id@gmail.com">
+							<button class="btncircle blue">
+								<span class = "far fa-envelope"></span>
+							</button>
+						</a>
+				</div>
+				<div class = "col">
+					&nbsp;
+				</div>
+			</div>
+
+			<br>
+
+			<div class = "row text-center">
+				<div class = "col"></div>
+
+				<div class = "col-lg-10 blue">
+					<a class = "footlink blue" href = ""><b>Terms of Use</b></a>
+					&nbsp;&nbsp;•&nbsp;&nbsp;
+					<a class = "footlink blue" href = ""><b>Privacy Policy</b></a>
+					&nbsp;&nbsp;•&nbsp;&nbsp;
+					<a class = "footlink blue" href = "https://www.tokopedia.com/generationgirl"><b>Merchandise</b></a>
+				</div>
+
+				<div class = "col"></div>
+
+			</div>
+
+		</div>
+
+	</div>
 
 </body>
 
- 
+
 </div>
 
 <footer>
-
+	<p class = "text-center blue"><b>Copyright ©2019 Generation Girl. All rights reserved.</b></p>
 </footer>
-
-
 
 
 </html>
