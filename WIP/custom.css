@@ -23,15 +23,6 @@ html,body{
 	color: #004b85;
 }
 
-.rectcirclea{
-	text-decoration: none;
-}
-
-.rectcirclea:hover{
-	text-decoration: none;
-	color: #a5e5d9;
-}
-
 /* Header */
 
 #navbutton{
@@ -74,6 +65,27 @@ html,body{
 	height: 50px;
 	margin: 0 auto;
 	padding-top: 10px;
+}
+
+.rectcircle:hover{
+	background-color: #a5e5d9;
+	color: #004b85;
+}
+
+.rectcirclealt{
+	background-color: #004b85;
+	color: #ffffff;
+	border-radius: 30px;
+	border: none;
+	/*width:200px;*/
+	padding: 10px;
+	padding-left:20px;
+	padding-right: 20px;
+}
+
+.rectcirclealt:hover{
+	background-color: #a5e5d9;
+	color: #004b85;
 }
 
 /* --- PAGES --- */
@@ -150,6 +162,7 @@ html,body{
 	border-radius: 20px;
 	padding: 5px;
 	text-align: center;
+	width:50%;
 }
 
 /* Carousel Card */
@@ -189,6 +202,14 @@ html,body{
 		padding:20px;
 	}
 
+	.card{
+		border-style: none;
+		-webkit-box-shadow: 5px 5px 25px 0px #d8d8d8;
+		-moz-box-shadow: 5px 5px 25px 0px #d8d8d8;
+		box-shadow: 5px 5px 25px 0px #d8d8d8;
+		margin-bottom: 30px;
+	}
+
 /* Instagram */
 
 #insta{
@@ -212,6 +233,22 @@ html,body{
 	padding-right: 10px;
 }
 
+.posttitle{
+	font-weight: 700;
+}
+
+.mediumpost{
+	padding: 20px;
+}
+
+.postdesc{
+	padding-top: 10px;
+	width:90%;
+}
+
+.postbutton{
+	padding-right: 20px;
+}
 
 /* --- FOOTER --- */
 
@@ -259,4 +296,21 @@ footer{
 	letter-spacing: 1pt;
 }
 
+/* RESPONSIVENESS */
 
+@media only screen and (max-width: 600px) {
+  	/* For tablets to mobile: */
+  	#content{background-size: contain;}
+  	.clubdate{width:100%;}
+  	.footbtn{width:100%;}
+ 	.footleft,.footright{flex: 0;}
+ 	.footlink{font-size: 10pt;}
+ 	footer{font-size: 10pt;}
+ 	.londrina{font-size: 24pt;}
+ 	.mediumcard{padding: 20px;}
+}
+
+@media only screen and (min-width: 600px){
+	.footleft,.footright{flex: 0;}
+	.mediumcard{padding: 20px;}
+}
