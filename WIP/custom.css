@@ -310,6 +310,16 @@ footer{
   	position: relative;
 }
 
+.winterheaderimg{
+	background-image: url("assets/winterclub18/winterheader.png");
+	height: 80%;
+
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
 .backbutton{
 	background-color: #ffffff;
 	color: #004b85;
@@ -322,9 +332,9 @@ footer{
 	vertical-align: center;
 	padding-top: 10px;
 
-	-webkit-box-shadow: 5px 5px 25px 0px #d8d8d8;
-	-moz-box-shadow: 5px 5px 25px 0px #d8d8d8;
-	box-shadow: 5px 5px 25px 0px #d8d8d8;
+	-webkit-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
 
 }
 
@@ -339,6 +349,15 @@ footer{
 	border-top-style: dashed;
 	border-top-width: 3px;
 	border-top-color: #d8d8d8;
+}
+
+.aboutclubimg{
+	/*max-height: 200px;*/
+	/*height: 50%;*/
+
+	-webkit-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
 }
 
 .clubposter{
@@ -397,6 +416,50 @@ footer{
 	border-radius: 50%;
 }
 
+/* Winter Club 18 */
+
+#wintermaterial{
+	padding-top: 90px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#wintergallery{
+	padding-top: 90px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.downloadbutton{
+	border-radius: 10px;
+	border-style: none;
+	background-color: #ffffff;
+	text-decoration: none;
+	width:80%;
+	padding: 20px;
+
+	-webkit-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+}
+
+.downloadbutton:hover{
+	text-decoration: none;
+	background-color: #f2dede;
+	color: #004b85;
+}
+
+.icon{
+	font-size: 50pt;
+	color: #f2dede;
+}
+
+.downloadlink:hover span{
+	color: #004b85;
+}
+
 
 /* RESPONSIVENESS */
 
@@ -410,6 +473,9 @@ footer{
  	footer{font-size: 10pt;}
  	.londrina{font-size: 24pt;}
  	.mediumcard{padding: 20px;}
+	.imggallery{padding: 20px;}
+	.downtopic{font-size: 12pt; text-align: center;}
+	.icon{padding-bottom: 20px;}
 }
 
 @media only screen and (min-width: 600px){
