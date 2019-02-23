@@ -460,6 +460,22 @@ footer{
 	color: #004b85;
 }
 
+/* TEXT-BASED PAGES */
+
+#doctemplate{
+	padding-top: 20px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Terms */
+
+.termshead{
+	font-weight: 700;
+	margin-top: 50px;
+}
+
 
 /* RESPONSIVENESS */
 
