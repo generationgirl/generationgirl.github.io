@@ -1,406 +1,453 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Website for Generation Girl Organization">
-    <meta name=“theme-color” content=“#B3E4DA”>
-    <!--favicon-->
-    <link rel="icon" href="img/GenGirl_Logos-01a.png">
 
-    <title>Generation Girl - Empowering Girls of Indonesia</title>
-    <!--bootstrap css-->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-    <!--custom fonts-->
+	<title>Generation Girl - Empowering Girls of Indonesia</title>
+	<meta name="author" content="Generation Girl">
+	<meta name = "description" content="Website for Generation Girl Organization">
+
+	<!-- ** Links ** -->
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<!-- Custom CSS -->
+	<link href = "custom.css" rel = "stylesheet">
+
+	<!-- Custom Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-    <!--font awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-      crossorigin="anonymous">
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script type="text/javascript" src="js/smooth_scroll.js"></script>
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133686988-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
 
-      gtag('config', 'UA-133686988-1');
-    </script>
-  </head>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-  <body>
-    <!--Navigation-->
-    <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <!--mobile display-->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+</head>
 
-          <!--branding-->
-          <a class="navbar-header" href="#header">
-            <img id="logo" src="img/genglogo.png">
-          </a>
 
-        </div>
-        <div id="navbar" class="navbar-collapse collapse navbar-right navbar-main-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#about" class="page-scroll"><b>TENTANG KAMI</b></a></li>
-            <li><a href="#clubs" class="page-scroll"><b>CLUB KAMI</b></a></li>
-            <li><a href="#contact" class="page-scroll"><b>HUBUNGI KAMI</b></a></li>
-            <li><a href="https://medium.com/@generationgirl.id" class="page-scroll"><b>PRESS</b></a></li>
-            <li>
-              <a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                <b>CHANGE LANGUAGE</b>
-              </a>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="en.html">ENGLISH</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<body>
 
-    <!--Intro header-->
-    <header id="header">
-    </header>
+	<!-- Navbar -->
 
-    <div id="headertext">
-      <div class="headerbody">
-        <img src=img/gengheader.png class="header-image">
-      </div>
-    </div>
+	<!-- navbar-expand-lg -->
 
-    <!--about section-->
-    <section id="about">
-      <div class="row">
-        <div class="container">
-          <div class="col-lg-12 text center">
+	<nav class="navbar fixed-top navbar-light bg-light">
+	  <a class="navbar-brand" href="#">
+	    <img src="assets/genglogo.png" height = "40" class="d-inline-block align-top" alt="Generation Girl">
+	  </a>
 
-            <div id="aboutusdiv">
-              <h2 class="section heading" align="center">Tentang Kami</h2>
-              <svg class='rectangle' width="80" height='20'>
-                <rect width="80" height="20" style="fill:#f2dede;" />
-              </svg>
-              <p id="aboutustext">Generation Girl adalah sebuah organisasi non-profit yang bertujuan untuk mengenalkan
-                cewek-cewek generasi muda ke dunia STEM (Sains dan Teknologi) melalui club yang diadakan setiap liburan
-                sekolah. Misi kami adalah untuk membentuk para generasi muda agar mereka bisa menjadi future female
-                leaders dan membangkitkan semangat mereka untuk menekuni bidang-bidang yang biasa didominasi oleh pria.
-                Organisasi ini dibangun oleh perempuan-perempuan tech-leaders Indonesia, dan kami juga bekerjasama dengan
-                beberapa perusahaan ternama yang mendukung visi kami, yaitu “membantu sesama wanita”.</p>
-              <br>
-              <img id='gengalt' src="img/genglogoalt.png" alt="genglogoalt" />
+	  <button id = "navbutton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fas fa-bars" style="color: #004b85;"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	  <div class="navbar-nav ml-auto">
+	      <a class="nav-item nav-link" href="#aboutus">Tentang Kami</a>
+	      <a class="nav-item nav-link" href="#ourclub">Club Kami</a>
+	      <a class="nav-item nav-link" href="#foot">Hubungi Kami</a>
+	      <a class="nav-item nav-link" href="http://medium.com/generation-girl">Press</a>
+	      <div class="dropdown-divider"></div>
+	      <a class="nav-item nav-link" href="en/index.html">Switch Language to English</a>
+	    </div>
+	  </div>
+	</nav>
+
+	<!-- Auto Collapse Navbar JS -->
+	<script>
+		$('.navbar-collapse a').click(function(){
+		    $(".navbar-collapse").collapse('hide');
+		});
+	</script>
+
+	<!-- Header -->
+		
+	<div class = "headerimg">
+		<div class = "headtext">
+			<h1 class = "londrina">Are you ready to be the next future female leader?</h1><br>
+
+			<a class = "rectcirclea blue" href = "#aboutus">
+		    	<button class = "rectcircle"><h4><b>Yes Please!</b></h4></button>
+		    </a>
+		</div>
+	</div>
+
+	<!-- Content -->
+
+	<section id = 'content'>
+
+		<!-- About Us -->
+		<div id = "aboutus">
+			<div class = "container">
+
+				<div class = "row">
+					<div class = "col-lg-8">
+						<h2 class ="blue"><b>Tentang Kami</b></h2>
+
+						<br>
+
+						<p id = "aboutustext">Generation Girl adalah suatu organisasi non-profit yang bertujuan untuk mengenalkan perempuan ke bidang STEM (Science, Technology, Engineering dan Math) sejak dini melalui klub liburan yang seru. Misi kami adalah untuk mendorong perempuan agar mereka berperan penting dalam bidang teknologi di masa depan. Kami berbasis di Jakarta, Indonesia, dan kami nggak sabar untuk segera hadir di lokasi lain!</p>
+
+						<!-- Blockquote -->
+						<h3 class = "text-right"><span><img src = "assets/genglogoalt.png" style="width:40px;"></span><i>  #gengup</i></h3>
+
+					</div>
+
+					<div class = "col-lg-4 text-center">
+						<img id = "aboutusimg" src = "assets/clover.png" alt = "geng">
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+		<!-- Our Team -->
+
+		<div id = "ourteam">
+
+			<div class = "container">
+
+				<div class = "row">
+
+					<div class = "col-lg-4">
+						<h2 class ="blue"><b>Tim Kami</b></h2>
+
+						<br>
+
+						<p id = "ourteamtext">Walaupun kami punya cerita masing-masing, kami semua bersemangat untuk mengedepankan visi dan misi kami dalam membangun ekosistem yang terdiri dari female role models. Kami harap para generasi muda dapat menginspirasi generasi selanjutnya untuk mengedepankan perempuan dalam teknologi!</p>
+
+					</div>
+
+					<div class = "col-lg-8 text-center">
+
+
+						<!-- Team Pictures -->
+						<div class = "row">
+								<div class = "col">
+									<img class = "imgteam" src = "assets/nadine.jpg" alt = "nadine">
+									<p class = "teamname"><b>Nadine Siregar</b></p>
+								</div>
+								<div class = "col">
+									<img class = "imgteam" src = "assets/crystal.jpg" alt = "nadine">
+									<p class = "teamname"><b>Crystal Widjaja</b></p>
+								</div>
+								<div class = "col">
+									<img class = "imgteam" src = "assets/fadri.jpg" alt = "nadine">
+									<p class = "teamname"><b>Fadri Attamimi</b></p>
+								</div>
+								<div class = "col">
+									<img class = "imgteam" src = "assets/janice.jpg" alt = "nadine">
+									<p class = "teamname"><b>Janice Widjaja</b></p>
+								</div>
+								<div class = "col">
+									<img class = "imgteam" src = "assets/mila.jpg" alt = "nadine">
+									<p class = "teamname"><b>Mila Alfitri</b></p>
+								</div>
+						</div>
+
+						<div class = "row">
+								<div class = "col">
+									<img class = "imgteam" src = "assets/tsabita.jpg" alt = "nadine">
+									<p class = "teamname"><b>Tsabita Cyavrilla</b></p>
+								</div>
+								<div class = "col">
+									<img class = "imgteam" src = "assets/jess.jpg" alt = "nadine">
+									<p class = "teamname"><b>Jessica Lauw</b></p>
+								</div>
+								<div class = "col">
+									<img class = "imgteam" src = "assets/grace.jpg" alt = "nadine">
+									<p class = "teamname"><b>Grace Tjandra</b></p>
+								</div>
+								<div class = "col">
+									<img class = "imgteam" src = "assets/tania.jpg" alt = "nadine">
+									<p class = "teamname"><b>Tania Soerianto</b></p>
+								</div>
+								<div class = "col">
+									<img class = "imgteam" src = "assets/dara.jpg" alt = "nadine">
+									<p class = "teamname"><b>N. Darapati</b></p>
+								</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<!-- Sponsors -->
+
+		<div id = "sponsors">
+
+			<div class = "container">
+
+				<h2 class ="blue text-center"><b>Sponsor Kami</b></h2>
+
+				<div class = "row text-center">
+					<div class = "col">
+						<a href = "https://www.sequoiacap.com/">
+							<img class = "sponsorimg" src = "assets/sequoia.png" alt = "sequoia">
+						</a>
+					</div>
+					<div class = "col">
+						<a href = "https://www.go-jek.com/">
+							<img class = "sponsorimg" src = "assets/gojek.png" alt = "gojek">
+						</a>
+					</div>
+					<div class = "col">
+						<a href = "https://www.tokopedia.com/about/">
+							<img class = "sponsorimg" src = "assets/tokped.png" alt = "tokopedia">
+						</a>
+					</div>
+					<div class = "col">
+						<a href = "https://www.wework.com/">
+							<img class = "sponsorimg" src = "assets/wework.png" alt = "wework">
+						</a>
+					</div>
+					<div class = "col">
+						<a href = "https://gen.xyz">
+							<img class = "sponsorimg" src = "assets/xyz.png" alt = "xyz">
+						</a>
+					</div>
+					<div class = "col">
+						<a href = "https://www.nostratech.com/">
+							<img class = "sponsorimg" src = "assets/nostra.png" alt = "nostra">
+						</a>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+
+		<!-- Our Clubs -->
+
+		<div id = "ourclub">
+
+			<div class = "container">
+
+				<div class = "row">
+					<div class = "col">
+						<h2 class ="blue"><b>Club Kami</b></h2>
+					</div>
+					<div class = "col text-right">
+							<a class = "prev blue" href="" title="go back"><i class="fas fa-lg fa-angle-left"></i></a>
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<a class = "next blue" href="" title="more"><i class="fas fa-lg fa-angle-right"></i></a>
+					</div>
+				</div>
+
+				<br><br>
+
+
+				<section class="carousel slide" data-ride="carousel" id="postsCarousel">
+				    <div class="container p-t-0 m-t-2 carousel-inner">
+				        <div class="row row-equal carousel-item active m-t-0">
+				            <div class="col-md-6">
+				                <div class="card">
+				                    <div class="card-img-top card-img-top-250">
+				                        <img class="img-fluid" src="assets/summertile.png" alt="Carousel 1">
+				                    </div>
+				                    <div class="card-block p-t-2">
+				                        <h4 class = "clubtitle blue">Summer Club 2019</h4>
+				                        <p class = "clubdate blue">
+				                        	17 Juni - 26 Juli 2019
+				                        </p>
+
+				                        <p class = "clubdesc">
+				                        	<b>Yuk isi liburan sekolahmu dengan Summer Club kami!</b>
+
+				                        	<br><br>
+
+				                        	Kami membuka kesempatan nih untuk Rookies batch baru kelas 9 - 11! Mentor kami juga akan mengajar kalian topik-topik baru! Walaupun klubnya akan diadakan selama 6 minggu, kalian bebas memilih kok mau ikutan minggu yang mana aja, soalnya topiknya bakalan beda tiap minggunya! Ohiya, kita juga lagi nyari mahasiswa dan lulusan baru untuk menjadi mentor kami di Summer Club, jadi jangan sampai ketinggalan kesempatan ini ya! 😉
+				                        </p>
+
+				                        <div class = "text-right">
+					                        <a href = "summerclub19.html">
+					                        	<button class = "rectcirclealt"><b>Mau ikutan dong</b> &nbsp;<span><i class = "fas fa-arrow-right"></i></span></button>
+					                    	</a>
+				                    	</div>
+				                    </div>
+				                </div>
+				            </div>
+				            <div class="col-md-6">
+				                <div class="card">
+				                    <div class="card-img-top card-img-top-250">
+				                        <img class="img-fluid" src="assets/wintertile.png" alt="Carousel 2">
+				                    </div>
+				                    <div class="card-block p-t-2">
+				                        <h4 class = "clubtitle blue">Winter Club 2018</h4>
+
+				                        <p class = "clubdate blue">
+				                        	17 - 21 Desember 2018
+				                        </p>
+
+				                        <p class = "clubdesc">
+				                        	<b>Waktunya belajar sesuatu yang baru!</b>
+
+				                        	<br><br>
+
+				                        	Nyantai bareng kita-kita yuk liburan akhir tahun ini dan belajar web development di club kami! Disini juga bakal ada kelas bela diri dan beberapa surprise lainnya loh. Cewek-cewek umur 12-16 tahun wajib ikutan klub seru ini sebagai Rookies, dan siapapun yang punya pengalaman dalam membuat web boleh banget jadi mentor. Tunggu apalagi, ayo daftar sekarang!
+				                        </p>
+
+				                        <div class = "text-right">
+					                        <a href = "winterclub18.html">
+					                        	<button class = "rectcirclealt"><b>Mau ikutan dong</b> &nbsp;<span><i class = "fas fa-arrow-right"></i></span></button>
+					                    	</a>
+				                    	</div>
+				                    </div>
+				                </div>
+				            </div>
+				        </div>
+				    </div>
+
+				<script js>
+					(function($) {
+					    "use strict";
+
+					    // manual carousel controls
+					    $('.next').click(function(){ $('.carousel').carousel('next');return false; });
+					    $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
+					    
+					})(jQuery);
+
+				</script>
+				</section>
+
+			</div>
+
+		</div>
+
+
+	</section>
+
+	<!-- Instagram -->
+
+	<div id = "insta">
+
+		<div class = "container">
+			<h2 class ="blue"> <span class = "fab fa-instagram"></span> <b>&nbsp;Instagram</b> </h2>
+
+			<br>
+
+			<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        	<div class="elfsight-app-d2b32b9e-b39f-4178-8971-90c1b52fa81c"></div>
+
+		</div>
+
+	</div>
+
+
+	<!-- Publications -->
+
+	<div id = "publications">
+
+		<div class = "container">
+			<h2 class ="blue"> <span class = "fab fa-medium"></span> <b>&nbsp;Publications</b> </h2>
+
+			<br><br>
+
+			<div class="card">
+
+				<div class = "row mediumcard">
+					<div class = "col-lg-6"><img class="img-fluid" src="assets/mediumpost.png" alt="Carousel 1"></div>
+					<div class = "col-lg-6 mediumpost">
+						<h4 class = "posttitle blue">Generation Girl’s Winter Club 2018</h4>
+
+	                    <p class = "postdesc">
+	                    	On the 17th of December 2018, Generation Girl held our first Winter Club at WeWork Revenue Tower. 25 girls aged 12–16 learned web development in this one-week program; they were introduced to HTML, CSS and JavaScript and built their first websites from scratch. The outcome was nothing short of spectacular!
+	                    </p>
+
+	                    <div class = "text-right postbutton">
+	                        <a href = "https://medium.com/generation-girl/generation-girls-winter-club-2018-bc74477e9b6a">
+	                        	<button class = "rectcirclealt"><b>Baca Artikel</b> &nbsp;<span><i class = "fas fa-arrow-right"></i></span></button>
+	                    	</a>
+                    	</div>
+					</div>
+
+				</div>
 
             </div>
-          </div>
-    </section>
+		</div>
 
-    <!--clubs section-->
-    <section id="clubs">
-      <div class="row">
-        <h2 class="section heading" align="center" style="color:#ffffff;">Club Kami</h2>
-        <svg class='rectangle' width="80" height='20'>
-          <rect width="80" height="20" style="fill:#a5e5d9;" />
-        </svg>
-        <div class="container" id="clubscontent">
-          <div class="col-lg-3" align="center">
-            <p id="ourclubscontent"> Holiday Clubs kami hadir dalam dua kelas yaitu Bahasa Indonesia dan Inggris,
-              sehingga rookies bisa dengan bebas memilih bahasa yang mereka minati. Club kami tidak dipungut biaya
-              apapun, namun biaya DP di awal tetap dibutuhkan untuk memastikan para rookies datang ke club kami. Tapi
-              jangan khawatir, uang deposit yang telah di setor tentu akan dikembalikan setelah Club nya selesai!
-            </p>
-          </div>
-          <div class="col-lg-3" align="center">
-            <p id="ourclubscontent"> Seperti nama yang kami bawa, kami ingin setiap generasi wanita ikut serta membantu
-              kegiatan kami. Tim koordinator kami memang terdiri dari female tech leaders, tapi tentunya kamu nggak akan
-              mau diajar oleh generasi tua kan? Jadi, kami sangat terbuka bagi siapapun untuk ikut serta membantu kami!
-            </p>
-          </div>
-          <div class="col-lg-3" align="center">
-            <p id="ourclubscontent">
-              Para mentor bakal bikin lesson plan yang pastinya asyik buat kamu, dan mereka juga akan merancang
-              event-event yang akan disisipkan di tengah kegiatan belajar mengajar. Mentor yang akan mengajar di club
-              kami adalah mahasiswa yang mempunyai background IT. Untuk para mentor, kalian mempunyai kebebasan untuk
-              memilih topik yang kalian akan ajar nantinya, kurikulum yang cocok dan tentunya kegiatan seru di tengah
-              acara kami! Kalau kamu mau menjadi role model untuk para generasi mendatang, saatnya kamu mendaftar sebagai
-              mentor!
-            </p>
-          </div>
-          <div class="col-lg-3" align="center">
-            <p id="ourclubscontent">
-              Rookies adalah calon-calon penerus bangsa yang berperan dalam bidang teknologi di masa depan, dan tentunya
-              mereka ingin belajar banyak dari mentor kami! Kalau kamu pingin ikutan acara seru ini, syaratnya kamu
-              adalah seorang perempuan berumur 12-16 tahun. Tenang aja, nggak perlu punya pengalaman apapun kok untuk
-              ikutan!
-            </p>
-          </div>
-          <div class="container" id="clubscontent">
-            <div class="col-lg-6" align="center">
-              <img src=img/winterclub.png class="image-rectangle">
-              <div class="row" align="center">
-                <h2 style="color:#a5e5d9;">Winter Club</h2>
-                <h6 align="center">December 17 - 21</h6>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#winterModal">
-                  Info lebih lanjut
-                </button>
-              </div>
-            </div>
-            <div class="col-lg-6" align="center">
-              <img src=img/summerclub.png class=" image-rectangle">
-              <div class="row" align="center">
-                <h2 style="color:#a5e5d9;">Summer Club</h2>
-                <h6 align="center">Juni 17-Juli 26 2019</h6>
-                <a class="btn btn-primary" href="topics-in.html" role="button">Info lebih lanjut</a>
-              </div>
-            </div>
-          </div>
-          <!-- Modal Winter -->
-          <div class="modal fade" id="winterModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h2 class="modal-title" id="exampleModalLabel" align="center">Winter Club</h2>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body" align="center">
-                  <!--
-                      <h4>Ever seen a website you liked? Or wonder how they are made? We will be teaching cool stuff on web development in our Winter Club program, targeted for kids ages 12-14.</h4>
-                      <h4>Venue: WeWork Revenue Tower, Jakarta, Indonesia</h4>
-                      <h4>Dates: December 17-21</h4>
-  -->
-                  <img src="img/winterclubposter.jpeg" alt="winter club poster" class="posters" align="center">
-                  <h4>Register:</h4>
-                  <a class="btn btn-primary" href="http://bit.ly/wintermentor" role="button">Sebagai Mentor</a> <a class="btn btn-primary"
-                    href="https://generationgirl.typeform.com/to/lWzL4W" role="button">Sebagai Rookie</a>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Modal Summer -->
-          <div class="modal fade" id="summerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h2 class="modal-title" id="exampleModalLabel" align="center">Summer Club</h2>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body" align="center">
+	</div>
 
-                  <img src="img/summer-club-in-rookie.jpeg" alt="summer club poster" class="posters"> <img src="img/summer-club-in-mentor.jpeg"
-                    alt="summer club poster" class="posters" align="center">
-                  <h4>Detil program</h4>
-                  <h4>Daftar:</h4>
-                  <a class="btn btn-primary" href="http://bit.ly/smrookie19" role="button">Sebagai Rookie</a> <a class="btn btn-primary"
-                    href="http://bit.ly/smrmentor19" role="button">Sebagai Mentor</a>
 
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+	<!-- Contact Us -->
 
-    <!--Meet the Team-->
-    <section id="meet">
-      <div class="row">
-        <div class="container">
+	<div id = "foot">
+		<div class = "container">
 
-          <div class="col-md-12 text-center">
-            <div id="meettheteamdiv">
-              <h2 class="section heading" align="center">Tim Kami</h2>
-              <svg class='rectangle' width="80" height='20'>
-                <rect width="80" height="20" style="fill:#f2dede;" />
-              </svg>
-            </div>
-          </div>
+			<div class = "row text-center">
+				<div class = "col footleft">
+					&nbsp;
+				</div>
+				<div class = "col footbtn">
+						<a href = "http://instagram.com/generationgirl.id">
+							<button class="btncircle blue">
+								<span class = "fab fa-instagram"></span>
+							</button>
+						</a>
 
-        </div>
-      </div>
+						&nbsp;
 
-      </div>
-      </div>
-      <div class="row">
-        <div class="container">
-          <div class="col-md-1"></div>
-          <div class="col-md-2">
-            <img src=img/nadine.jpg class="image-meet">
-            <h4 align="center">Nadine Siregar</h4>
-          </div>
-          <div class="col-md-2">
-            <img src=img/crystal.jpg class="image-meet">
-            <h4 align="center">Crystal Widjaja</h4>
-          </div>
-          <div class="col-md-2">
-            <img src=img/fadri.jpg class="image-meet">
-            <h4 align="center">Fadri Attamimi</h4>
-          </div>
-          <div class="col-md-2">
-            <img src=img/janice.jpg class="image-meet">
-            <h4 align="center">Janice Widjaja</h4>
-          </div>
-          <div class="col-md-2">
-            <img src=img/mila.jpg class="image-meet">
-            <h4 align="center">Mila Alfitri</h4>
-          </div>
-          <div class="col-md-1"></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="container">
-          <div class="col-md-2"></div>
-          <div class="col-md-2">
-            <img src=img/tsabita.jpg class="image-meet">
-            <h4 align="center">Tsabita Cyavrilla</h4>
-          </div>
-          <div class="col-md-2">
-            <img src=img/jess.jpg class="image-meet">
-            <h4 align="center">Jessica Lauw</h4>
-          </div>
-          <div class="col-md-2">
-            <img src=img/grace.jpg class="image-meet">
-            <h4 align="center">Grace Tjandra</h4>
-          </div>
-          <div class="col-md-2">
-            <img src=img/alita.jpg class="image-meet">
-            <h4 align="center">Alita Damara</h4>
-          </div>
-          <div class="col-md-2"></div>
-        </div>
-      </div>
-    </section>
+						<a href = "https://www.paypal.me/GenerationGirl"> 
+							<button class="btncircle blue">
+								<span class = "far fa-heart"></span>
+							</button>
+						</a>
 
-    <section id="sponsors">
-      <div class="container">
-        <div class="row text-center">
-          <h2 class="section heading">Sponsor Kami</h2>
-          <svg class='rectangle' width="80" height='20'>
-            <rect width="80" height="20" style="fill:#f2dede;" />
-          </svg>
-          <div id="sponsorcontent">
-            <img src=img/sponsors.png class="image-sponsor">
+						&nbsp;
 
-            <!--
-                <div class = "col-md-3">          
-                  <img src=img/Sequoia_Logo.png class = "image-sponsor"><br><br>
-                </div>
-                <div class = "col-md-3">
-                  <img src = img/gojek.png class = "image-sponsor"><br><br>
-                </div>
-                <div class = "col-md-3">
-                  <img src=img/WeWork-Logo.jpg class = "image-sponsor"><br><br>
-                </div>
-                <div class = "col-md-3">
-            <img src=img/nostra.jpeg class = "image-sponsor"><br><br>
-                </div>
-  -->
-          </div>
-        </div>
-      </div>
-    </section>
+						<a href = "mailto:contactus@generationgirl.org">
+							<button class="btncircle blue">
+								<span class = "far fa-envelope"></span>
+							</button>
+						</a>
+				</div>
+				<div class = "col footright">
+					&nbsp;
+				</div>
+			</div>
 
-    <section id="igfeed">
-      <div class="container">
-        <h2>Instagram</h2>
-        <svg class='rectangle' width="80" height='20'>
-          <rect width="80" height="20" style="fill:#fff;" />
-        </svg>
-        <br><br>
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-        <div class="elfsight-app-d2b32b9e-b39f-4178-8971-90c1b52fa81c"></div>
-        <br>
-      </div>
+			<br>
 
-      <div class="container">
-        <h2>PRESS RELEASE</h2>
-        <svg class='rectangle' width="80" height='20'>
-          <rect width="80" height="20" style="fill:#fff;" />
-        </svg>
-        <br><br>
-        <!-- 		  	<blockquote class="embedly-card"> -->
-        <blockquote>
-          <h2 style="font-size: 16pt; text-align: left;"><a href="https://medium.com/generation-girl/generation-girls-winter-club-2018-bc74477e9b6a"
-              style="text-decoration: none;"><i class="fab fa-medium"></i> Generation Girl's Winter Club 2018</a></h2>
-          <p style="color:#000000;">On the 17th of December 2018, Generation Girl held our first Winter Club at WeWork
-            Revenue Tower. 25 girls aged 12-16 learned web development in this one-week program; they were introduced to
-            HTML, CSS and JavaScript and built their first websites from scratch. The outcome was nothing short of
-            spectacular!</p>
-        </blockquote>
-        <!-- <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script> -->
-      </div>
-    </section>
+			<div class = "row text-center">
+				<div class = "col"></div>
 
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center" id="contacttitle">
-            <h2 class="section heading">Hubungi Kami</h2>
-            <svg class='rectangle' width="80" height='20'>
-              <rect width="80" height="20" style="fill:#ffffff;" />
-            </svg>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <div class="col-md-4 text-center">
-              <div class="contact-box">
-                <a href="mailto:generationgirl.id@gmail.com"><img src="img/email.png" class="contact-email"></a>
-                <p id="contactustext">E-MAIL</p>
-              </div>
-            </div>
-            <div class="col-md-4 text-center">
-              <div class="contact-box">
-                <a href="https://www.paypal.me/GenerationGirl"><img src="img/donate.png" class="contact-square"></a>
-                <p id="contactustext">DONASI</p>
-              </div>
-            </div>
-            <div class="col-md-4 text-center">
-              <div class="contact-box">
-                <a href="https://www.instagram.com/generationgirl.id/"><img src="img/instagram.png" class="contact-square"></i></a>
-                <p id="contactustext">INSTAGRAM</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+				<div class = "col-lg-10 blue">
+					<a class = "footlink blue" href = "terms.html"><b>Syarat & Ketentuan</b></a>
+					&nbsp;&nbsp;•&nbsp;&nbsp;
+					<a class = "footlink blue" href = "privacy.html"><b>Kebijakan Privasi</b></a>
+					&nbsp;&nbsp;•&nbsp;&nbsp;
+					<a class = "footlink blue" href = "https://www.tokopedia.com/generationgirl"><b>Merchandise</b></a>
+				</div>
 
-    <!-- Footer -->
-    <footer>
-      <div class="container text-center">
-        <h4>Website ini dibuat dan didesain oleh <a class="author" href="https://github.com/alfitriv"><i class="fa fa-github"
-              aria-hidden="true"></i> Mila Alfitri</a> <a class="author" href="https://github.com/tsabitachave"><i class="fa fa-github"
-              aria-hidden="true"></i> Tsabita Cyavrilla</a> <a class="author" href="https://id.linkedin.com/in/josephine-bahari-2416567b"><i
-              class="fa fa-linkedin" aria-hidden="true"></i> Josephine Bahari</a>, <i class="fa fa-copyright" aria-hidden="true"></i>
-          2019</h4>
-      </div>
-    </footer>
-    <!--bootstrap js-->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+				<div class = "col"></div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+
+
+</div>
+
+<footer>
+	<p class = "text-center blue"><b>Copyright ©2019 Generation Girl. All rights reserved.</b></p>
+</footer>
+
+
 </html>
