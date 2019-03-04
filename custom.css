@@ -8,6 +8,14 @@ html,body{
 	scroll-behavior: smooth;
 }
 
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
 #content{
 	background-image: url("assets/bg.svg");
 	background-size: cover;
@@ -21,6 +29,10 @@ html,body{
 
 .blue{
 	color: #004b85;
+}
+
+.white{
+	color: #ffffff;
 }
 
 /* Header */
@@ -363,6 +375,13 @@ footer{
 .clubposter{
 	width:50%;
 	height: auto;
+}
+
+.postercaption, .postercaption:hover{
+	text-decoration: none;
+	color:#004b85;
+	padding-top: 10px;
+	font-weight: 700;
 }
 
 /* Topics */
