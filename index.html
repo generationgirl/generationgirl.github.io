@@ -365,31 +365,124 @@
 	<div id = "publications">
 
 		<div class = "container">
-			<h2 class ="blue"> <span class = "fab fa-medium"></span> <b>&nbsp;Publications</b> </h2>
+			<div class = "row">
+        <div class = "col">
+          <h2 class ="blue"><b>Publications</b></h2>
+        </div>
+        <div class = "col text-right">
+            <a class = "prev blue" href="" title="go back"><i class="fas fa-lg fa-angle-left"></i></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a class = "next blue" href="" title="more"><i class="fas fa-lg fa-angle-right"></i></a>
+        </div>
+      </div>
 
-			<br><br>
+      <br><br>
 
-			<div class="card">
+
+      <section class="carousel slide" data-ride="carousel" id="postsCarousel">
+          <div class="container p-t-0 m-t-2 carousel-inner">
+              <div class="row row-equal carousel-item active m-t-0">
+                  <div class="col-md-4">
+                      <div class="card">
+                          <div class="card-img-top card-img-top-250">
+                              <img class="img-fluid" src="assets/mediumpost.jpg" alt="Carousel 1">
+                          </div>
+                          <div class="card-block p-t-2">
+                              <h4 class = "clubtitle blue">Generation Girl’s Winter Club 2018</h4>
+
+                              <p class = "clubdesc">
+                                On the 17th of December 2018, Generation Girl held our first Winter Club at WeWork Revenue Tower. 25 girls aged 12–16 learned web development in this one-week program; they were introduced to HTML, CSS and JavaScript and built their first websites from scratch. The outcome was nothing short of spectacular!
+                              </p>
+
+                              <div class = "text-right">
+                                <a href = "https://medium.com/generation-girl/generation-girls-winter-club-2018-bc74477e9b6a">
+                                  <button class = "rectcirclealt"><b>Show me more</b> &nbsp;<span><i class = "fas fa-arrow-right"></i></span></button>
+                              </a>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card">
+                          <div class="card-img-top card-img-top-250">
+                              <img class="img-fluid" src="assets/tokopediaArticle.jpeg" alt="Carousel 2">
+                          </div>
+                          <div class="card-block p-t-2">
+                              <h4 class = "clubtitle blue">As told by our Rookies: Tokopedia HQ Tour
+                              </h4>
+
+                              <p class = "clubdesc">
+                                We asked one of our Rookies Jocelyn to write about her experience touring the Tokopedia office. Read on for her story!
+                              </p>
+
+                              <div class = "text-right">
+                                <a href = "https://medium.com/generation-girl/as-told-by-our-rookies-tokopedia-hq-tour-9965d8ac93c">
+                                  <button class = "rectcirclealt"><b>More info</b> &nbsp;<span><i class = "fas fa-arrow-right"></i></span></button>
+                              </a>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="assets/lightboxTutorial.png" alt="Carousel 2">
+                        </div>
+                        <div class="card-block p-t-2">
+                            <h4 class = "clubtitle blue">Bootstrap Lightbox Tutorial
+                            </h4>
+
+                            <p class = "clubdesc">
+                              An HTML tutorial on creating a cool lightbox for your website photos!
+                            </p>
+
+                            <div class = "text-right">
+                              <a href = "https://medium.com/generation-girl">
+                                <button class = "rectcirclealt"><b>More info</b> &nbsp;<span><i class = "fas fa-arrow-right"></i></span></button>
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+
+      <script js>
+        (function($) {
+            "use strict";
+
+            // manual carousel controls
+            $('.next').click(function(){ $('.carousel').carousel('next');return false; });
+            $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
+            
+        })(jQuery);
+
+      </script>
+      </section>
+      
+
+
+			<!-- <div class="card">
 
 				<div class = "row mediumcard">
-					<div class = "col-lg-6"><img class="img-fluid" src="assets/mediumpost2.png" alt="Carousel 1"></div>
+					<div class = "col-lg-6"><img class="img-fluid" src="../assets/mediumpost.jpg" alt="Carousel 1"></div>
 					<div class = "col-lg-6 mediumpost">
-						<h4 class = "posttitle blue">Bootstrap Lightbox Tutorial</h4>
+						<h4 class = "posttitle blue">Generation Girl’s Winter Club 2018</h4>
 
 	                    <p class = "postdesc">
-	                    	Tutorial yang super keren untuk bikin galeri foto menggunakan Lightbox!
+	                    	On the 17th of December 2018, Generation Girl held our first Winter Club at WeWork Revenue Tower. 25 girls aged 12–16 learned web development in this one-week program; they were introduced to HTML, CSS and JavaScript and built their first websites from scratch. The outcome was nothing short of spectacular!
 	                    </p>
 
 	                    <div class = "text-right postbutton">
-	                        <a href = "https://medium.com/generation-girl/bootstrap-lightbox-tutorial-9a6f89e3adef">
-	                        	<button class = "rectcirclealt"><b>Baca Artikel</b> &nbsp;<span><i class = "fas fa-arrow-right"></i></span></button>
+	                        <a href = "https://medium.com/generation-girl/generation-girls-winter-club-2018-bc74477e9b6a">
+	                        	<button class = "rectcirclealt"><b>Read Article</b> &nbsp;<span><i class = "fas fa-arrow-right"></i></span></button>
 	                    	</a>
                     	</div>
 					</div>
 
-				</div>
+        </div>
 
-            </div>
+      </div> -->
 		</div>
 
 	</div>
