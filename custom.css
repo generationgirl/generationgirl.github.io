@@ -479,6 +479,174 @@ footer{
 	color: #004b85;
 }
 
+/* Chapter */
+
+.chapterheaderimg{
+	background-image: url("assets/chapterbg.png");
+	height: 80%;
+
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
+#chaptertitle{
+	text-align: center;
+  	position: absolute;
+  	top: 60%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: #004987;
+  	font-size: 60pt;
+}
+
+#aboutchapter{
+	padding-top: 90px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	border-top-style: dashed;
+	border-top-width: 3px;
+	border-top-color: #d8d8d8;
+}
+
+.aboutchapterimg{
+	border-width: 10px;
+	border-color: #ffffff;
+	border-style: solid;
+	border-radius: 5px;
+	transform: rotate(-2deg);
+	-webkit-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+}
+
+.reasonchapterimg{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: #fdf0d0;
+	vertical-align: center;
+
+	margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.reasonimg{
+	width: 150px;
+}
+
+.reasontext{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#reasonchapter{
+	padding-top: 90px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#chapterexpect{
+	padding-top: 90px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#chaptersteps{
+	padding-top: 90px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Steps WIP */
+
+.stepp{
+    margin-top: 30px;
+}
+
+.stepwizard:before {
+    top: 40px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 3px;
+    background-color: #004987;
+    z-order: 0;
+	white-space: nowrap;
+}
+
+.stepcircle{
+	padding:20px;
+	background-color: #fdf0d0;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border-style: none;
+	font-size: 18pt;
+}
+
+#joinchapter{
+	padding-top: 90px;
+	padding-bottom: 70px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	border-top-style: dashed;
+	border-top-width: 3px;
+	border-top-color: #d8d8d8;
+}
+
+/* Chapter Numbering */
+
+ol {
+    counter-reset:li; /* Initiate a counter */
+    margin-left:0; /* Remove the default left margin */
+    padding-left:0; /* Remove the default left padding */
+}
+ol > li {
+    position:relative; /* Create a positioning context */
+    margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
+    padding:4px 8px; /* Add some spacing around the content */
+    list-style:none; /* Disable the normal item numbering */
+	margin-bottom: 20px;
+}
+ol > li:before {
+    content:counter(li); /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+    /* Position and style the number */
+    position:absolute;
+    top:-2px;
+    left:-2em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:2em;
+    /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+    margin-right:8px;
+    padding:4px;
+    color:#004987;
+    background:#f2dede;
+    font-weight:bold;
+    text-align:center;
+    border-radius: 50%;
+}
+li ol,
+li ul {margin-top:6px;}
+ol ol li:last-child {margin-bottom:0;}
+
+/* Steps */
+
+
+
 /* Image Gallery */
 
 .imagegallery{
@@ -520,9 +688,11 @@ footer{
 	.imggallery{padding: 20px;}
 	.downtopic{font-size: 12pt; text-align: center;}
 	.icon{padding-bottom: 20px;}
+	.steprow{flex: 1 0 auto;}
 }
 
 @media only screen and (min-width: 600px){
 	.footleft,.footright{flex: 0;}
 	.mediumcard{padding: 20px;}
+	.steprow{flex: 1 0 auto;}
 }
