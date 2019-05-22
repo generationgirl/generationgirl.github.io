@@ -222,6 +222,46 @@ a:hover{
 		margin-bottom: 30px;
 	}
 
+/* Contribute */
+
+#contribute{
+	background-image: url("assets/contribute.svg");
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 400px;
+}
+
+.contributetitle{
+	margin-left: 60px;
+}
+
+.contleft{
+	padding-top: 10px;
+	padding-right: 50px;
+}
+
+.btncirclesmall{
+	background-color: #ffffff;
+	color: #004b85;
+	border-radius: 30px;
+	border: none;
+	width:250px;
+	height: 45px;
+	vertical-align: center;
+	padding-top: 10px;
+
+	-webkit-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+}
+
+.btncirclesmall:hover{
+	background-color: #004b85;
+	color:#ffffff;
+}
+
 /* Instagram */
 
 #insta{
