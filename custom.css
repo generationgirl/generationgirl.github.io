@@ -54,7 +54,7 @@ a:hover{
   	background-repeat: no-repeat;
   	background-size: cover;
   	position: relative;
-}
+} 
 
 .headtext {
   	text-align: center;
@@ -73,7 +73,7 @@ a:hover{
 	color: #004b85;
 	border-radius: 30px;
 	border: none;
-	width:200px;
+	width:250px;
 	height: 50px;
 	margin: 0 auto;
 	padding-top: 10px;
@@ -98,6 +98,17 @@ a:hover{
 .rectcirclealt:hover{
 	background-color: #a5e5d9;
 	color: #004b85;
+}
+
+.carlink{
+	margin-bottom: 50px;
+	-webkit-box-shadow: 5px 5px 25px 0px #d8d8d8;
+	-moz-box-shadow: 5px 5px 25px 0px #d8d8d8;
+	box-shadow: 5px 5px 25px 0px #d8d8d8;
+}
+
+.cartext{
+	margin-bottom: 50px;
 }
 
 /* --- PAGES --- */
@@ -724,10 +735,9 @@ ol ol li:last-child {margin-bottom:0;}
   	#content{background-size: contain;}
   	.clubdate{width:100%;}
   	.footbtn{width:100%;}
- 	.footleft,.footright{flex: 0;}
+ 	.footleft,.footright{flex: 0;} 
  	.footlink{font-size: 10pt;}
  	footer{font-size: 10pt;}
- 	.londrina{font-size: 24pt;}
  	.mediumcard{padding: 20px;}
 	.imggallery{padding: 20px;}
 	.downtopic{font-size: 12pt; text-align: center;}
