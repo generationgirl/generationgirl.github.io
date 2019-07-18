@@ -108,7 +108,10 @@ a:hover{
 }
 
 .cartext{
-	margin-bottom: 50px;
+	margin-bottom: 180px;
+	-webkit-box-shadow: 5px 5px 25px 0px #d8d8d8;
+	-moz-box-shadow: 5px 5px 25px 0px #d8d8d8;
+	box-shadow: 5px 5px 25px 0px #d8d8d8;
 }
 
 /* --- PAGES --- */
