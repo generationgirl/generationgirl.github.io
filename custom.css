@@ -746,6 +746,8 @@ ol ol li:last-child {margin-bottom:0;}
 	.downtopic{font-size: 12pt; text-align: center;}
 	.icon{padding-bottom: 20px;}
 	.steprow{flex: 1 0 auto;}
+	#contribute{background-color: rgb(252,243,205); background-image: none; text-align: center; margin:0;}
+	.contributetitle, .contleft{margin: 0; margin-top: 10px;}
 }
 
 @media only screen and (min-width: 600px){
