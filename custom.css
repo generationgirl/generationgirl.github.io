@@ -738,7 +738,7 @@ ol ol li:last-child {margin-bottom:0;}
   	#content{background-size: contain;}
   	.clubdate{width:100%;}
   	.footbtn{width:100%;}
- 	.footleft,.footright{flex: 0;} 
+ 	.footleft,.footright{flex: 0; width:0%;} 
  	.footlink{font-size: 10pt;}
  	footer{font-size: 10pt;}
  	.mediumcard{padding: 20px;}
@@ -748,6 +748,14 @@ ol ol li:last-child {margin-bottom:0;}
 	.steprow{flex: 1 0 auto;}
 	#contribute{background-color: rgb(252,243,205); background-image: none; text-align: center; margin:0;}
 	.contributetitle, .contleft{margin: 0; margin-top: 10px;}
+	#aboutus{padding-top: 20px;}
+	#headcarousel{margin-top: 66px;max-height:100%;}
+	.londrina{font-size: 14pt;}
+	.rectcircle {width:120px; height: 40px;}
+	.carcaption{font-size: 9pt;}
+	.carbutton {width:100px; height: 30px;margin-top: 10px;}
+	.yesplease{font-size: 9pt;}
+	.cartext{margin-bottom: 0px; margin-top: 100px;}
 }
 
 @media only screen and (min-width: 600px){
