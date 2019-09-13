@@ -1,0 +1,779 @@
+ /* CSS for Generation Girl */
+
+/* HTML Overall */
+
+html,body{
+	font-family: "Source Sans Pro";
+	width: 100%;
+	/* What I added to remove whitespace */
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+	scroll-behavior: smooth;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+/* FOR DEBUGGING PURPOSES
+	* {
+	background: #000 !important;
+	color: #0f0 !important;
+	outline: solid #f00 1px !important;
+  }
+
+  */ 
+a:hover{
+	text-decoration: none;
+}
+
+#content{
+	background-image: url("assets/bg.svg");
+	background-size: cover;
+}
+
+
+/* Fonts & Color */
+.londrina{
+	font-family: "Londrina Solid";
+}
+
+.blue{
+	color: #004b85;
+}
+
+.white{
+	color: #ffffff;
+}
+
+/* Header */
+
+#navbutton{
+	border: none;
+}
+
+.navbar-nav{
+	color: #004b85;
+}
+
+.headerimg{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("assets/gengbg.jpg");
+  	height: 100%;
+
+  	/* Position and center the image to scale nicely on all screens */
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+} 
+
+.headtext {
+  	text-align: center;
+  	position: absolute;
+  	top: 70%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: #ffffff;
+}
+
+
+/* Buttons */
+
+.rectcircle{
+	background-color: #ffffff;
+	color: #004b85;
+	border-radius: 30px;
+	border: none;
+	width:250px;
+	height: 50px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.rectcircle:hover{
+	background-color: #a5e5d9;
+	color: #004b85;
+}
+
+.rectcirclealt{
+	background-color: #004b85;
+	color: #ffffff;
+	border-radius: 30px;
+	border: none;
+	/*width:200px;*/
+	padding: 10px;
+	padding-left:20px;
+	padding-right: 20px;
+}
+
+.rectcirclealt:hover{
+	background-color: #a5e5d9;
+	color: #004b85;
+}
+
+.carlink{
+	margin-bottom: 50px;
+	-webkit-box-shadow: 5px 5px 25px 0px #d8d8d8;
+	-moz-box-shadow: 5px 5px 25px 0px #d8d8d8;
+	box-shadow: 5px 5px 25px 0px #d8d8d8;
+}
+
+.cartext{
+	margin-bottom: 180px;
+	-webkit-box-shadow: 5px 5px 25px 0px #d8d8d8;
+	-moz-box-shadow: 5px 5px 25px 0px #d8d8d8;
+	box-shadow: 5px 5px 25px 0px #d8d8d8;
+}
+
+/* --- PAGES --- */
+
+/* About Us */
+
+#aboutus{
+	padding-top: 90px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#aboutusimg{
+	width:300px;
+}
+
+/* Our Team */
+
+#ourteam{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.imgteam{
+	border-radius: 50%;
+	width:100px;
+}
+
+.teamname{
+	padding-top: 10px;
+}
+
+/* Our Sponsors */
+
+#sponsors{
+	padding-top: 80px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.sponsorimg{
+	max-width: 150px;
+	max-height: 100%;
+}
+
+/* Our Club */
+
+#ourclub{
+	padding-top: 80px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.prev,.next{
+	font-size: 28pt;
+}
+
+.prev:hover, .next:hover{
+	color: #a5e5d9;
+}
+
+.clubtitle{
+	font-weight: 700;
+}
+
+.clubdate{
+	font-weight: 700;
+	background-color: #f2dede;
+	border-radius: 20px;
+	padding: 5px;
+	text-align: center;
+	width:50%;
+}
+
+/* Carousel Card */
+
+	/* equal card height */
+	.row-equal > div[class*='col-'] {
+	    display: flex;
+	    flex: 1 0 auto;
+	}
+
+	.row-equal .card {
+	   width: 100%;
+	}
+
+	/* ensure equal card height inside carousel */
+	.carousel-inner>.row-equal.active, 
+	.carousel-inner>.row-equal.next, 
+	.carousel-inner>.row-equal.prev {
+	    display: flex;
+	}
+
+	/* prevent flicker during transition */
+	.carousel-inner>.row-equal.active.left, 
+	.carousel-inner>.row-equal.active.right {
+	    opacity: 0.5;
+	    display: flex;
+	}
+
+
+	/* control image height */
+	.card-img-top-250 {
+	    max-height: 250px;
+	    overflow:hidden;
+	}
+
+	.card-block{
+		padding:20px;
+	}
+
+	.card{
+		border-style: none;
+		-webkit-box-shadow: 5px 5px 25px 0px #d8d8d8;
+		-moz-box-shadow: 5px 5px 25px 0px #d8d8d8;
+		box-shadow: 5px 5px 25px 0px #d8d8d8;
+		margin-bottom: 30px;
+	}
+
+/* Contribute */
+
+#contribute{
+	background-image: url("assets/contribute.svg");
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 400px;
+}
+
+.contributetitle{
+	margin-left: 60px;
+}
+
+.contleft{
+	/*padding-top: 10px;
+	padding-right: 50px;*/
+
+	margin-left: 25px;
+}
+
+.btncirclesmall{
+	background-color: #ffffff;
+	color: #004b85;
+	border-radius: 30px;
+	border: none;
+	width:250px;
+	height: 45px;
+	vertical-align: center;
+	padding-top: 10px;
+	margin-top: 15px;
+	margin-left: 10px;
+
+	-webkit-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+}
+
+.btncirclesmall:hover{
+	background-color: #004b85;
+	color:#ffffff;
+}
+
+/* Instagram */
+
+#insta{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	border-top-style: dashed;
+	border-top-width: 3px;
+	border-top-color: #d8d8d8;
+}
+
+
+/* Publications */
+
+#publications{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.posttitle{
+	font-weight: 700;
+}
+
+.mediumpost{
+	padding: 20px;
+}
+
+.postdesc{
+	padding-top: 10px;
+	width:90%;
+}
+
+.postbutton{
+	padding-right: 20px;
+}
+
+/* --- FOOTER --- */
+
+/* Contact Us */
+
+#foot{
+	background-color: #eeeeee;
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.btncircle{
+	padding:20px;
+	background-color: #ffffff;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border-style: none;
+	font-size: 20pt;
+}
+
+.btncircle:hover{
+	color: #ffffff;
+	background-color: #a5e5d9;
+}
+
+.footlink{
+	letter-spacing: 2pt;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.footlink:hover{
+	color: #a5e5d9;
+	text-decoration: none;
+}
+
+footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #f2dede;
+	letter-spacing: 1pt;
+}
+
+/* --- CLUBS PAGE --- */
+
+/* Header */
+
+.clubheaderimg{
+	background-image: url("assets/summerclub19/summerheader.png");
+	height: 80%;
+
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
+.winterheaderimg{
+	background-image: url("assets/winterclub18/winterheader.png");
+	height: 80%;
+
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
+.backbutton{
+	background-color: #ffffff;
+	color: #004b85;
+	border-radius: 30px;
+	border: none;
+	width:200px;
+	height: 45px;
+	margin-top: 90px;
+	margin-left: 20px;
+	vertical-align: center;
+	padding-top: 10px;
+
+	-webkit-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+
+}
+
+/* About The Club */
+
+#aboutclub{
+	padding-top: 90px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	border-top-style: dashed;
+	border-top-width: 3px;
+	border-top-color: #d8d8d8;
+}
+
+.aboutclubimg{
+	/*max-height: 200px;*/
+	/*height: 50%;*/
+
+	-webkit-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+}
+
+.clubposter{
+	width:50%;
+	height: auto;
+}
+
+.postercaption, .postercaption:hover{
+	text-decoration: none;
+	color:#004b85;
+	padding-top: 10px;
+	font-weight: 700;
+}
+
+/* Topics */
+
+#topics{
+	padding-top: 90px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.topictitle{
+	font-weight: 700;
+}
+
+.topicdatepink{
+	font-weight: 700;
+	background-color: #f2dede;
+	border-radius: 20px;
+	padding: 5px;
+	text-align: center;
+}
+
+.topicdateblue{
+	font-weight: 700;
+	background-color: #a5e5d9;
+	border-radius: 20px;
+	padding: 5px;
+	text-align: center;
+}
+
+.topicdateyellow{
+	font-weight: 700;
+	background-color: #fff6cc;
+	border-radius: 20px;
+	padding: 5px;
+	text-align: center;
+}
+
+/* Mentors & Rookies */
+
+#mentorrookie{
+	padding-top: 90px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.sqimage{
+	width:75%;
+	border-radius: 50%;
+}
+
+/* Winter Club 18 */
+
+#wintermaterial{
+	padding-top: 90px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#wintergallery{
+	padding-top: 90px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.downloadbutton{
+	border-radius: 10px;
+	border-style: none;
+	background-color: #ffffff;
+	text-decoration: none;
+	width:80%;
+	padding: 20px;
+
+	-webkit-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+}
+
+.downloadbutton:hover{
+	text-decoration: none;
+	background-color: #f2dede;
+	color: #004b85;
+}
+
+.icon{
+	font-size: 50pt;
+	color: #f2dede;
+}
+
+.downloadlink:hover span{
+	color: #004b85;
+}
+
+/* Chapter */
+
+.chapterheaderimg{
+	background-image: url("assets/chapterbg.png");
+	height: 80%;
+
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
+#chaptertitle{
+	text-align: center;
+  	position: absolute;
+  	top: 60%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: #004987;
+  	font-size: 60pt;
+}
+
+#aboutchapter{
+	padding-top: 90px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	border-top-style: dashed;
+	border-top-width: 3px;
+	border-top-color: #d8d8d8;
+}
+
+.aboutchapterimg{
+	border-width: 10px;
+	border-color: #ffffff;
+	border-style: solid;
+	border-radius: 5px;
+	transform: rotate(-2deg);
+	-webkit-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+	box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+}
+
+.reasonchapterimg{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: #fdf0d0;
+	vertical-align: center;
+
+	margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.reasonimg{
+	width: 150px;
+}
+
+.reasontext{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#reasonchapter{
+	padding-top: 90px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#chapterexpect{
+	padding-top: 90px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#chaptersteps{
+	padding-top: 90px;
+	padding-bottom: 70px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+/* Steps WIP */
+
+.stepp{
+    margin-top: 30px;
+}
+
+.stepwizard:before {
+    top: 40px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    height: 3px;
+    background-color: #004987;
+    z-order: 0;
+	white-space: nowrap;
+}
+
+.stepcircle{
+	padding:20px;
+	background-color: #fdf0d0;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border-style: none;
+	font-size: 18pt;
+}
+
+#joinchapter{
+	padding-top: 90px;
+	padding-bottom: 70px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	border-top-style: dashed;
+	border-top-width: 3px;
+	border-top-color: #d8d8d8;
+}
+
+/* Chapter Numbering */
+
+ol {
+    counter-reset:li; /* Initiate a counter */
+    margin-left:0; /* Remove the default left margin */
+    padding-left:0; /* Remove the default left padding */
+}
+ol > li {
+    position:relative; /* Create a positioning context */
+    margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
+    padding:4px 8px; /* Add some spacing around the content */
+    list-style:none; /* Disable the normal item numbering */
+	margin-bottom: 20px;
+}
+ol > li:before {
+    content:counter(li); /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+    /* Position and style the number */
+    position:absolute;
+    top:-2px;
+    left:-2em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:2em;
+    /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+    margin-right:8px;
+    padding:4px;
+    color:#004987;
+    background:#f2dede;
+    font-weight:bold;
+    text-align:center;
+    border-radius: 50%;
+}
+li ol,
+li ul {margin-top:6px;}
+ol ol li:last-child {margin-bottom:0;}
+
+/* Steps */
+
+
+
+/* Image Gallery */
+
+.imagegallery{
+	padding-top: 90px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* TEXT-BASED PAGES */
+
+#doctemplate{
+	padding-top: 20px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Terms */
+
+.termshead{
+	font-weight: 700;
+	margin-top: 50px;
+}
+
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 600px) {
+  	/* For tablets to mobile: */
+  	#content{background-size: contain;}
+  	.clubdate{width:100%;}
+  	.footbtn{width:100%;}
+ 	.footleft,.footright{flex: 0; width:0%;} 
+ 	.footlink{font-size: 10pt;}
+ 	footer{font-size: 10pt;}
+ 	.mediumcard{padding: 20px;}
+	.imggallery{padding: 20px;}
+	.downtopic{font-size: 12pt; text-align: center;}
+	.icon{padding-bottom: 20px;}
+	.steprow{flex: 1 0 auto;}
+	#contribute{background-color: rgb(252,243,205); background-image: none; text-align: center; margin:0;}
+	.contributetitle, .contleft{margin: 0; margin-top: 10px;}
+	#aboutus{padding-top: 20px;}
+	#headcarousel{margin-top: 66px;max-height:100%;}
+	.londrina{font-size: 14pt;}
+	.rectcircle {width:120px; height: 40px;}
+	.carcaption{font-size: 9pt;}
+	.carbutton {width:100px; height: 30px;margin-top: 10px;}
+	.yesplease{font-size: 9pt;}
+	.cartext{margin-bottom: 0px; margin-top: 100px;}
+}
+
+@media only screen and (min-width: 600px){
+	.footleft,.footright{flex: 0;}
+	.mediumcard{padding: 20px;}
+	.steprow{flex: 1 0 auto;}
+}
