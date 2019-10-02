@@ -57,15 +57,26 @@ a:hover{
 } 
 
 .headtext {
+	width:580px;
+	height: 90px;
   	text-align: center;
-  	position: absolute;
+  	position: relative;
   	top: 70%;
   	left: 50%;
-  	transform: translate(-50%, -50%);
+  	transform: translate(-50%, -245%);
   	color: #ffffff;
 }
-
-
+@media only screen and (max-width: 600px) {
+	.headtext {
+		font-size: 40px;
+		transform: translate(-50%, -144%);
+		width:580px;
+	    height: 90px;
+	}
+}
+#subtitle {
+	margin-top:10px
+}
 /* Buttons */
 
 .rectcircle{
