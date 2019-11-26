@@ -202,6 +202,9 @@ a:hover{
 	width:50%;
 }
 
+.seasonlogo {
+	margin-top: 60px;
+}
 /* Carousel Card */
 
 	/* equal card height */
@@ -380,7 +383,15 @@ footer{
 /* --- CLUBS PAGE --- */
 
 /* Header */
+.winter19headerimg {
+		background-image: url("assets/winterclub19/winterheader19.png");
+	height: 80%;
 
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
 .clubheaderimg{
 	background-image: url("assets/summerclub19/summerheader.png");
 	height: 80%;
