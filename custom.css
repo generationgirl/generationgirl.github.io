@@ -383,6 +383,16 @@ footer{
 /* --- CLUBS PAGE --- */
 
 /* Header */
+.electives20headerimg {
+	background-image: url("assets/electives20/electives-header.jpeg");
+height: 80%;
+
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .winter19headerimg {
 		background-image: url("assets/winterclub19/winterheader19.png");
 	height: 80%;
