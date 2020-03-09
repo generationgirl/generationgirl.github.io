@@ -383,6 +383,15 @@ footer{
 /* --- CLUBS PAGE --- */
 
 /* Header */
+.summer20headerimg {
+	background-image: url("assets/summerclub20/summerheader20.png");
+height: 80%;
+
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 .electives20headerimg {
 	background-image: url("assets/electives20/electives-header.jpeg");
 height: 80%;
