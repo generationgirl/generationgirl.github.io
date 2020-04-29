@@ -1,10 +1,15 @@
 /* Impact Report 2019 */
 .highlight {
-	height: 24px;
-	width: 330px;
+    height: 30px;
+    width: 550px;
 	background: #FDFBC6;
-	border-radius: 22px;
-	transform: rotate(-3.91deg);
+	border-radius: 22px;	
+}
+@media only screen and (max-width: 411px) {
+    .highlight{
+        height: 30%;
+    }
+
 }
 
 .highlight-pink{
@@ -14,11 +19,22 @@
 	border-radius: 22px;
 	transform: rotate(-1.0deg);
 }
-
+.sub-title {
+    position: absolute;
+    color: #004b85;
+    bottom: -2px;
+    font-size: 30px;
+}
 .title {
 	position: absolute;
     color: #004b85;
     bottom: -2px;
+    font-size: 40px;
+}
+@media only screen and (max-width: 411px) {
+    .title {
+        font-size:45px;
+    }
 }
 
 .odometer {
@@ -86,3 +102,48 @@
     color:#004b85; 
     font-style:italic;
 }
+
+.meet-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.meet-para {
+    color:#004b85; 
+    text-align: center; 
+    background-color:#F2F2F2; 
+    padding:30px;
+}
+
+.goals-title  {
+    position: absolute;
+    color: #004b85;
+    margin-left: 15px;
+    top: 2px;
+    font-size: 25px;
+}
+
+.goal-para {
+    color:#004b85; 
+    /* text-align: center;   */
+    padding:10px;
+    font-style:italic;
+    font-size:20px;
+}
+
+.grey-highlight {
+	background: #F2F2F2;
+    border-radius: 22px;
+    margin-left:6px;
+    position:relative; 
+    height: 25%; 
+    width:85%;
+}
+
+@media only screen and (max-width: 411px) {
+    .team-pic{
+        height: 30%;
+    }
+)
