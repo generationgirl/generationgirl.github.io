@@ -19,17 +19,21 @@
 	border-radius: 22px;
 	transform: rotate(-1.0deg);
 }
+@media only screen and (max-width: 411px) {
+    .highlight-pink{
+        width: 200px;
+    }
+}
 .sub-title {
     position: absolute;
     color: #004b85;
     bottom: -2px;
-    font-size: 30px;
+    font-size: 50px;
 }
 .title {
 	position: absolute;
     color: #004b85;
-    bottom: -2px;
-    font-size: 40px;
+    font-size: 65px;
 }
 @media only screen and (max-width: 411px) {
     .title {
@@ -107,7 +111,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 80%;
 }
 
 .meet-para {
@@ -115,6 +119,7 @@
     text-align: center; 
     background-color:#F2F2F2; 
     padding:30px;
+    font-size: 22px;
 }
 
 .goals-title  {
@@ -123,6 +128,7 @@
     margin-left: 15px;
     top: 2px;
     font-size: 25px;
+    margin-top:10px;
 }
 
 .goal-para {
@@ -130,7 +136,8 @@
     /* text-align: center;   */
     padding:10px;
     font-style:italic;
-    font-size:20px;
+    font-size:22px;
+    padding-top:1px;
 }
 
 .grey-highlight {
@@ -142,8 +149,45 @@
     width:85%;
 }
 
+.team-pic {
+    height: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 70px;
+    margin-top: 8px;
+}
+
 @media only screen and (max-width: 411px) {
     .team-pic{
-        height: 30%;
+        height: 200px;
+        margin: 0px;
+        margin-top: 40px;
     }
-)
+}
+@media only screen and (max-width: 411px) {
+    .mural {
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 411px) {
+    .sponsors-img {
+        height:90px;
+    }
+}
+
+#center-img {
+    width: 165px;
+    height: 163px;
+    margin: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#center-p{
+    text-align:center;
+    margin: 0px;
+    padding: 0px;
+    color:#004b85;
+}
