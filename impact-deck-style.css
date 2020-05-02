@@ -31,7 +31,7 @@
     font-size: 50px;
 }
 .title {
-	position: absolute;
+	position: relative;
     color: #004b85;
     font-size: 65px;
 }
@@ -133,11 +133,9 @@
 
 .goal-para {
     color:#004b85; 
-    /* text-align: center;   */
     padding:10px;
     font-style:italic;
     font-size:22px;
-    padding-top:1px;
 }
 
 .grey-highlight {
@@ -190,4 +188,15 @@
     margin: 0px;
     padding: 0px;
     color:#004b85;
+}
+
+@media only screen and (max-width: 411px) {
+    .goal-icons {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.sponsors-img{
+    width: 65%;
 }
