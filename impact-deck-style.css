@@ -1,0 +1,234 @@
+/* Impact Report 2019 */
+.highlight {
+    height: 55px;
+    width: 500px;
+	background: #FDFBC6;
+    border-radius: 22px;	
+    text-align:center;
+}
+@media only screen and (max-width: 411px) {
+    .highlight{
+        height: 30%;
+    }
+
+}
+
+.highlight-pink{
+	height: 40px;
+	width: 270px;
+	background: #F2DEDE;
+	border-radius: 22px;
+    transform: rotate(-1.0deg);
+    text-align: center;
+}
+
+.sub-title {
+    /* position: absolute; */
+    color: #004b85;
+    /* bottom: -2px; */
+    display: inline-block;
+}
+.title {
+	position: relative;
+    color: #004b85;
+    display:inline-block;
+}
+/* @media only screen and (max-width: 411px) {
+    .title {
+        font-size:45px;
+    }
+} */
+
+.odometer {
+	color: #004b85;
+	font-family:inherit;
+	font-size: 50px;
+	margin:13px;
+}
+
+.blue-rectangle {
+	padding: 3px;
+	height: 100px;
+	left: 157px;
+	top: 62px;
+	background: #a5e5d9;
+    border-radius: 22px;
+    position: relative;
+    left: 0px;
+    margin-bottom: 30px;
+}
+
+.subtitle-blue-rectangle {
+    position: relative;
+    left: 146px;
+    bottom: 75px;
+    font-weight: normal;
+    /* font-size: 32px; */
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #004B85;
+}
+
+.numbers-title {
+    color: #004b85; 
+    position: relative; 
+    top: 35px
+}
+
+.imgteam {
+    margin: 24px;
+    width: auto;
+    height: 215px;
+    position: relative;
+}
+
+.yellow-highlight {
+    height: 36px;
+	width: 185px;
+	background: #FDFBC6;
+    border-radius: 22px;
+    margin-left:6px;
+    text-align:center;
+}
+
+.operations-details {
+    position: relative;
+    left: 10px;
+    top: 5px;
+    color:#004b85; 
+    font-style:italic;
+    /* font-size: 23px; */
+}
+
+.events {
+    color:#004b85; 
+    font-style:italic;
+}
+
+.meet-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 72%;
+}
+
+.meet-para {
+    color:#004b85; 
+    text-align: center; 
+    background-color:#F2F2F2; 
+    padding:30px;
+    /* font-size: 22px; */
+}
+
+.goals-title  {
+    color: #004b85;
+    /* font-size: 25px; */
+    margin-top:10px;
+    display: inline-block;
+}
+
+.goal-para {
+    color:#004b85; 
+    padding:10px;
+    font-style:italic;
+    /* font-size:22px; */
+}
+
+.grey-highlight {
+	background: #F2F2F2;
+    border-radius: 22px;
+    margin-left:6px;
+    /* position:relative;  */
+    height: 25%; 
+    width:85%;
+    text-align: center;
+}
+
+.team-pic {
+    height: 420px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 70px; */
+    margin-top: 8px;
+}
+
+@media only screen and (max-width: 411px) {
+    .team-pic{
+        height: 200px;
+        margin: 0px;
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 411px) {
+    .mural {
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 411px) {
+    .sponsors-img {
+        height:auto;
+    }
+}
+
+#center-img {
+    width: 165px;
+    height: 163px;
+    margin: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#center-p{
+    text-align:center;
+    margin: 0px;
+    padding: 0px;
+    color:#004b85;
+}
+.goal-icons {
+   height: 55px;
+}
+@media only screen and (max-width: 411px) {
+    .goal-icons {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.sponsors-img{
+    width: 65%;
+}
+
+
+.mentor-mentee{
+    height:550px;
+}
+
+@media only screen and (max-width: 411px) {
+    .mentor-mentee{
+        height:400px;
+    }
+}
+
+.group-img{
+    height: 350px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 411px) {
+    .group-img{
+        height: 200px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+.snapshot-icons{
+    height: 30px;
+}
