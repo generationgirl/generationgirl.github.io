@@ -1,9 +1,10 @@
 /* Impact Report 2019 */
 .highlight {
-    height: 30px;
-    width: 550px;
+    height: 55px;
+    width: 500px;
 	background: #FDFBC6;
-	border-radius: 22px;	
+    border-radius: 22px;	
+    text-align:center;
 }
 @media only screen and (max-width: 411px) {
     .highlight{
@@ -17,40 +18,37 @@
 	width: 270px;
 	background: #F2DEDE;
 	border-radius: 22px;
-	transform: rotate(-1.0deg);
+    transform: rotate(-1.0deg);
+    text-align: center;
 }
-@media only screen and (max-width: 411px) {
-    .highlight-pink{
-        width: 200px;
-    }
-}
+
 .sub-title {
-    position: absolute;
+    /* position: absolute; */
     color: #004b85;
-    bottom: -2px;
-    font-size: 50px;
+    /* bottom: -2px; */
+    display: inline-block;
 }
 .title {
 	position: relative;
     color: #004b85;
-    font-size: 65px;
+    display:inline-block;
 }
-@media only screen and (max-width: 411px) {
+/* @media only screen and (max-width: 411px) {
     .title {
         font-size:45px;
     }
-}
+} */
 
 .odometer {
 	color: #004b85;
 	font-family:inherit;
-	font-size: 60px;
+	font-size: 50px;
 	margin:13px;
 }
 
 .blue-rectangle {
 	padding: 3px;
-	height: 129px;
+	height: 100px;
 	left: 157px;
 	top: 62px;
 	background: #a5e5d9;
@@ -63,9 +61,9 @@
 .subtitle-blue-rectangle {
     position: relative;
     left: 146px;
-    bottom: 80px;
+    bottom: 75px;
     font-weight: normal;
-    font-size: 32px;
+    /* font-size: 32px; */
     line-height: 29px;
     display: flex;
     align-items: center;
@@ -80,8 +78,8 @@
 
 .imgteam {
     margin: 24px;
-    width: 271px;
-    height: 270px;
+    width: auto;
+    height: 215px;
     position: relative;
 }
 
@@ -90,7 +88,8 @@
 	width: 185px;
 	background: #FDFBC6;
     border-radius: 22px;
-    margin-left:6px
+    margin-left:6px;
+    text-align:center;
 }
 
 .operations-details {
@@ -99,7 +98,7 @@
     top: 5px;
     color:#004b85; 
     font-style:italic;
-    font-size: 23px;
+    /* font-size: 23px; */
 }
 
 .events {
@@ -111,7 +110,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 72%;
 }
 
 .meet-para {
@@ -119,40 +118,39 @@
     text-align: center; 
     background-color:#F2F2F2; 
     padding:30px;
-    font-size: 22px;
+    /* font-size: 22px; */
 }
 
 .goals-title  {
-    position: absolute;
     color: #004b85;
-    margin-left: 15px;
-    top: 2px;
-    font-size: 25px;
+    /* font-size: 25px; */
     margin-top:10px;
+    display: inline-block;
 }
 
 .goal-para {
     color:#004b85; 
     padding:10px;
     font-style:italic;
-    font-size:22px;
+    /* font-size:22px; */
 }
 
 .grey-highlight {
 	background: #F2F2F2;
     border-radius: 22px;
     margin-left:6px;
-    position:relative; 
+    /* position:relative;  */
     height: 25%; 
     width:85%;
+    text-align: center;
 }
 
 .team-pic {
-    height: 550px;
+    height: 420px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin: 70px;
+    /* margin: 70px; */
     margin-top: 8px;
 }
 
@@ -170,7 +168,7 @@
 }
 @media only screen and (max-width: 411px) {
     .sponsors-img {
-        height:90px;
+        height:auto;
     }
 }
 
@@ -189,7 +187,9 @@
     padding: 0px;
     color:#004b85;
 }
-
+.goal-icons {
+   height: 55px;
+}
 @media only screen and (max-width: 411px) {
     .goal-icons {
         display: block;
@@ -199,4 +199,36 @@
 
 .sponsors-img{
     width: 65%;
+}
+
+
+.mentor-mentee{
+    height:550px;
+}
+
+@media only screen and (max-width: 411px) {
+    .mentor-mentee{
+        height:400px;
+    }
+}
+
+.group-img{
+    height: 350px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 411px) {
+    .group-img{
+        height: 200px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+.snapshot-icons{
+    height: 30px;
 }
