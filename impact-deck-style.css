@@ -68,12 +68,14 @@
     display: flex;
     align-items: center;
     color: #004B85;
+    font-size: 26px;
 }
 
 .numbers-title {
     color: #004b85; 
     position: relative; 
-    top: 35px
+    top: 35px;
+    font-size: 24px;
 }
 
 .imgteam {
