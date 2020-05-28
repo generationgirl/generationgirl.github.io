@@ -41,7 +41,7 @@
 
 .odometer {
 	color: #004b85;
-	font-family:inherit;
+	font-family:'dk avontuur';
 	font-size: 50px;
 	margin:13px;
 }
@@ -57,12 +57,16 @@
     left: 0px;
     margin-bottom: 30px;
 }
-
+.odometer-value{
+    font-family: 'source sans pro';
+    font-weight: bold;
+}
 .subtitle-blue-rectangle {
+    font-family: 'source sans pro';
     position: relative;
     left: 146px;
     bottom: 75px;
-    font-weight: normal;
+    font-weight: bold;
     /* font-size: 32px; */
     line-height: 29px;
     display: flex;
@@ -76,6 +80,7 @@
     position: relative; 
     top: 35px;
     font-size: 24px;
+    /* font-family: 'dk avontuur' */
 }
 
 .imgteam {
