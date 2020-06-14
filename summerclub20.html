@@ -124,25 +124,24 @@
 					<div class = "col">
 						<h2 class ="blue"><b>Weekly Highlights</b></h2>
 					</div> 
-					<!-- <div class = "col text-right">
-						<a class = "prev blue" href="" title="go back"><i class="fas fa-lg fa-angle-left"></i></a>
+					<div class = "col text-right">
+						<a class = "prevvid blue" href="#videoCarousel" title="go back"><i class="fas fa-lg fa-angle-left"></i></a>
 						&nbsp;&nbsp;&nbsp;&nbsp;
-						<a class = "next blue" href="" title="more"><i class="fas fa-lg fa-angle-right"></i></a>
-					</div> -->
+						<a class = "nextvid blue" href="#videoCarousel" title="more"><i class="fas fa-lg fa-angle-right"></i></a>
+					</div>
 				</div>
 				<br/>
-				<div id="carouselExampleIndicators" class="carousel slide" id="videoCarousel" data-ride="carousel" data-interval="false">
+				<div class="carousel slide" id="videoCarousel" data-ride="carousel" data-interval="false">
 			
 					<div class="carousel-inner" >
 					  <div class="carousel-item active" >
+					  	<iframe class="d-block w-100" width="640" height="385" src="https://www.youtube.com/embed/xmn9Mm0o4CI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					  </div>
+					  <div class="carousel-item">
 						<iframe class="d-block w-100" width="640" height="385" src="https://www.youtube.com/embed/H2GVxnu16Hg?list=PLBm86KcDAfpOPehWeG5ktERLqbg7hK356" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					  </div>
-					  <div class="carousel-item">
-						<!-- video link -->
-					  </div>
-					  <div class="carousel-item">
-						<!-- video link -->
-					  </div>
+					  <!-- <div class="carousel-item">
+					  </div> -->
 					</div>
 			
 				  </div>
@@ -161,9 +160,9 @@
 						<h2 class ="blue"><b>Topik Summer Club</b></h2>
 					</div>
 					<div class = "col text-right">
-						<a class = "prev blue" href="" title="go back"><i class="fas fa-lg fa-angle-left"></i></a>
+						<a class = "prevtopic blue" href="clubtopicCarousel" title="go back"><i class="fas fa-lg fa-angle-left"></i></a>
 						&nbsp;&nbsp;&nbsp;&nbsp;
-						<a class = "next blue" href="" title="more"><i class="fas fa-lg fa-angle-right"></i></a>
+						<a class = "nexttopic blue" href="clubtopicCarousel" title="more"><i class="fas fa-lg fa-angle-right"></i></a>
 					</div>
 				</div>
 
@@ -329,8 +328,14 @@
 				    "use strict";
 
 				    // manual carousel controls
-				    $('.next').click(function(){ $('.carousel').carousel('next');return false; });
-				    $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
+				    $('.nextvid').click(function(){ $("#videoCarousel").carousel('next');return false; });
+				    $('.prevvid').click(function(){ $("#videoCarousel").carousel('prev');return false; });
+
+				    // manual carousel controls
+				    $('.nexttopic').click(function(){ $("#clubtopicCarousel").carousel('next');return false; });
+				    $('.prevtopic').click(function(){ $("#clubtopicCarousel").carousel('prev');return false; });
+
+				    //$('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
 				    
 				})(jQuery);
 
