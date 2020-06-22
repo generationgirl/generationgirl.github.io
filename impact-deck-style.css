@@ -15,13 +15,19 @@
 
 .highlight-pink{
 	height: 40px;
-	width: 270px;
+	width: 450px;
 	background: #F2DEDE;
 	border-radius: 22px;
     transform: rotate(-1.0deg);
     text-align: center;
 }
+@media only screen and (max-width: 411px) {
+    .highlight-pink{
+        /* height: 30%; */
+        width: 300px;
+    }
 
+}
 .sub-title {
     /* position: absolute; */
     color: #004b85;
@@ -33,11 +39,11 @@
     color: #004b85;
     display:inline-block;
 }
-/* @media only screen and (max-width: 411px) {
+@media only screen and (max-width: 411px) {
     .title {
-        font-size:45px;
+        font-size:20px;
     }
-} */
+}
 
 .odometer {
 	color: #004b85;
@@ -238,4 +244,16 @@
 
 .snapshot-icons{
     height: 30px;
+}
+
+.partners{
+    width: 20%;
+}
+
+@media only screen and (max-width: 411px) {
+    .row{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
