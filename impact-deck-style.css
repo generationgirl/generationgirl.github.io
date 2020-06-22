@@ -97,6 +97,14 @@
     color: #004B85;
     font-size: 26px;
 }
+#followers{
+    padding-left: 150px;
+}
+@media only screen and (max-width: 411px) {
+    .followers {
+        padding-left: 150px;
+    }
+}
 
 .numbers-title {
     color: #004b85; 
