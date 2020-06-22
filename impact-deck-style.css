@@ -246,9 +246,6 @@
     height: 30px;
 }
 
-.partners{
-    width: 20%;
-}
 
 @media only screen and (max-width: 411px) {
     .row{
