@@ -210,10 +210,54 @@
 }
 @media only screen and (max-width: 411px) {
     .sponsors-img {
-        height:auto;
+        width: 85%;
+        display: flex;
+        align-items: center;
     }
 }
+#sponsor-img-all{
+    display: flex;
+    align-items: center;
+}
+.sponsor-img-small{
+    margin:10px;
+    width:160px;
+    
+}
+.partners-digitraya {
+    margin:10px;
+    width:220px;
+}
+.partners-google {
+    margin:10px;
+    width:60px;
+}
+.partners-techinasia {
+    margin:10px;
+    width:100px;
+}
+.partners-highscope {
+    margin:10px;
+    width:220px;
+}
+.partners-tutwurihandyani{
+    margin:10px;
+    width: 120px
+}
+.partners-nationalhigh{
+    margin:10px;
+    width:120px ;
+}
+.partners-jis{
+    margin:10px;
+    width:120px;
+}
 
+@media only screen and (max-width: 411px) {
+    .sponsor-img-small {
+        width: 85%;
+    }
+}
 #center-img {
     width: 165px;
     height: 163px;
@@ -234,13 +278,18 @@
 }
 @media only screen and (max-width: 411px) {
     .goal-icons {
-        display: block;
-        margin: 0 auto;
+        /* display: block;
+        margin: 0 auto; */
+        margin-left: 130px;
+        margin-bottom: 15px;
     }
 }
 
 .sponsors-img{
-    width: 65%;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -250,7 +299,7 @@
 
 @media only screen and (max-width: 411px) {
     .mentor-mentee{
-        height:400px;
+        height:330px;
     }
 }
 
@@ -283,3 +332,4 @@
     }
 
 }
+
